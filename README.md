@@ -1,3 +1,3 @@
 # servicenow-oss
 This repository complies ServiceNow scripts created by the RapDev team.
-Take a look through our repo and find the answers to your NOW struggles.
+Take a look through our repo and find helpful ServiceNow tips and tricks.
