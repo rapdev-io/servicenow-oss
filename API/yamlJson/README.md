@@ -29,4 +29,4 @@ var obj = new x_radi_yaml_json.Yaml().parse(decodedString);
 ```
 
 ### Credits
--@jeremyfa for base code
+-[jeremyfa](https://github.com/jeremyfa) for base code
