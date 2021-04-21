@@ -4,7 +4,7 @@ The base application is the ***YAML JSON Conversion*** update set.
 
 ## How to use:
 ```
-var myObject = x_radi_yaml_json.Yaml().parse('some: yaml'); //input must be a string containing YAML; returns a JSON object
+var myObject = new x_radi_yaml_json.Yaml().parse('some: yaml'); //input must be a string containing YAML; returns a JSON object
 gs.info(myObject);
 ```
 
