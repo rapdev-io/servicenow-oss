@@ -13,7 +13,7 @@ gs.info(myObject);
 var request = new sn_ws.RESTMessageV2();
 request.setHttpMethod("GET");
 request.setBasicAuth("user","pass");
-request.setEndpoint("https://api.github.com/github_repo/contents/file_name.yaml");
+request.setEndpoint("https://api.github.com/repos/:owner/:repo/contents/:path");
 request.setRequestHeader("accept","application/json");
 var run = request.execute();
 var body = run.getBody();
