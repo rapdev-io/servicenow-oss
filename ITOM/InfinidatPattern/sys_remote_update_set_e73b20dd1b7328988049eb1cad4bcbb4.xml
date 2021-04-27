@@ -1,0 +1,3103 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-04-27 13:37:35">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>PatternExport 2021-04-27 13:37:32</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_base_update_set>
+<remote_parent_id/>
+<remote_sys_id>173b20dd1b7328988049eb1cad4bcb15</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>e73b20dd1b7328988049eb1cad4bcbb4</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_remote_upd_ase_update_set/>
+<sys_remote_upd_cation_version/>
+<sys_remote_upd_et_application/>
+<sys_remote_upd_et_commit_date/>
+<sys_remote_upd_et_description/>
+<sys_remote_upd_lication_scope/>
+<sys_remote_upd_mote_parent_id/>
+<sys_remote_upd_origin_sys_id/>
+<sys_remote_upd_plication_name/>
+<sys_remote_upd_remote_sys_id/>
+<sys_remote_upd_set_collisions/>
+<sys_remote_upd_set_update_set/>
+<sys_remote_upd_set_vendor_key/>
+<sys_remote_upd_sys_class_name/>
+<sys_remote_upd_sys_created_by/>
+<sys_remote_upd_sys_created_on/>
+<sys_remote_upd_sys_mod_count/>
+<sys_remote_upd_sys_updated_by/>
+<sys_remote_upd_sys_updated_on/>
+<sys_remote_upd_t_release_date/>
+<sys_remote_upd_update_source/>
+<sys_remote_update_set_deleted/>
+<sys_remote_update_set_inserted/>
+<sys_remote_update_set_name/>
+<sys_remote_update_set_parent/>
+<sys_remote_update_set_state/>
+<sys_remote_update_set_summary/>
+<sys_remote_update_set_sys_id/>
+<sys_remote_update_set_updated/>
+<sys_remote_update_set_version/>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+<vendor_key/>
+<version/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_custom_operation_param_e4a4c9b51bbdac90c50f635bbc4bcbaa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_custom_operation_param"><sa_custom_operation_param action="INSERT_OR_UPDATE"><default_value/><label>URL</label><mandatory>true</mandatory><name>url</name><operation display_value="Infinidat Get Call">088e7cfd1bf9ac90c50f635bbc4bcb5a</operation><order>100</order><sys_class_name>sa_custom_operation_param</sys_class_name><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-19 18:41:22</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e4a4c9b51bbdac90c50f635bbc4bcbaa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>url</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sa_custom_operation_param_e4a4c9b51bbdac90c50f635bbc4bcbaa</sys_update_name><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-19 18:41:22</sys_updated_on><validation_regex/></sa_custom_operation_param></record_update>]]></payload>
+<payload_hash>626559809</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>233b20dd1b7328988049eb1cad4bcbb8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9f8c0000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>url</target_name>
+<type>Custom Operation Parameters</type>
+<u_link>[code]&lt;a title="url" class="linked" href="sa_custom_operation_param.do?sys_id=e4a4c9b51bbdac90c50f635bbc4bcbaa"&gt;url&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>2b3b20ddf37328985c7abf66a93a109a</update_guid>
+<update_guid_history>2b3b20ddf37328985c7abf66a93a109a:626559809,614aca22ec8aac9899c0f3fe840417a6:626559809,eaf40579fdbdac9034ddc5e7f2940fc0:1191520156</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_custom_operation_param_61a9f95a9f3312003cb191aec32e70e1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_custom_operation_param"><sa_custom_operation_param action="INSERT_OR_UPDATE"><default_value/><label>URL</label><mandatory>true</mandatory><name>url</name><operation display_value="Http Get Call">99a9f95a9f3312003cb191aec32e70e9</operation><order>100</order><sys_class_name>sa_custom_operation_param</sys_class_name><sys_created_by>yair.leibkowiz</sys_created_by><sys_created_on>2016-06-06 08:15:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>61a9f95a9f3312003cb191aec32e70e1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>url</sys_name><sys_overrides/><sys_package display_value="Pattern Designer" source="com.snc.pattern.designer">090998621b223300945b844fdd4bcbaa</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sa_custom_operation_param_61a9f95a9f3312003cb191aec32e70e1</sys_update_name><sys_updated_by>yair.leibkowiz</sys_updated_by><sys_updated_on>2017-03-16 12:56:59</sys_updated_on><validation_regex/></sa_custom_operation_param></record_update>]]></payload>
+<payload_hash>-595238115</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>273b20dd1b7328988049eb1cad4bcbb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9fbb0000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>url</target_name>
+<type>Custom Operation Parameters</type>
+<u_link>[code]&lt;a title="url" class="linked" href="sa_custom_operation_param.do?sys_id=61a9f95a9f3312003cb191aec32e70e1"&gt;url&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>eb3b20dd3f732898a1795885f79c2f9c</update_guid>
+<update_guid_history>eb3b20dd3f732898a1795885f79c2f9c:-595238115,614aca22f48aac98239a1673750c9ba9:-595238115</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sa_ci_to_pattern_ff9f67331b29a0108049eb1cad4bcb3a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_ci_to_pattern"><sa_ci_to_pattern action="INSERT_OR_UPDATE"><ci_type>cmdb_ci_storage_server</ci_type><deletion_strategy>1</deletion_strategy><is_main_ci>false</is_main_ci><pattern display_value="Infinidat">f7ae1b741b49a4508049eb1cad4bcb3a</pattern><strategy_script/><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-14 01:59:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ff9f67331b29a0108049eb1cad4bcb3a</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-14 01:59:06</sys_updated_on></sa_ci_to_pattern></record_update>]]></payload>
+<payload_hash>286115353</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>2b3b20dd1b7328988049eb1cad4bcbb6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9e8f0000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>ff9f67331b29a0108049eb1cad4bcb3a</target_name>
+<type>Related CI Types</type>
+<u_link>[code]&lt;a title="ff9f67331b29a0108049eb1cad4bcb3a" class="linked" href="sa_ci_to_pattern.do?sys_id=ff9f67331b29a0108049eb1cad4bcb3a"&gt;ff9f67331b29a0108049eb1cad4bcb3a&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>133b20dd947328987d524552bb4ad487</update_guid>
+<update_guid_history>133b20dd947328987d524552bb4ad487:286115353,6d4aca224e8aac9889cd98eda7b9f49c:286115353,7f9f67334829a010ccd5545fd733203b:2057725406</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sa_ci_to_pattern_975077b71b29a0108049eb1cad4bcb7a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_ci_to_pattern"><sa_ci_to_pattern action="INSERT_OR_UPDATE"><ci_type>cmdb_ci_storage_cluster_node</ci_type><deletion_strategy>1</deletion_strategy><is_main_ci>false</is_main_ci><pattern display_value="Infinidat">f7ae1b741b49a4508049eb1cad4bcb3a</pattern><strategy_script/><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-14 02:02:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>975077b71b29a0108049eb1cad4bcb7a</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-14 02:02:20</sys_updated_on></sa_ci_to_pattern></record_update>]]></payload>
+<payload_hash>1033142581</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>2f3b20dd1b7328988049eb1cad4bcbb5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9e3e0000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>975077b71b29a0108049eb1cad4bcb7a</target_name>
+<type>Related CI Types</type>
+<u_link>[code]&lt;a title="975077b71b29a0108049eb1cad4bcb7a" class="linked" href="sa_ci_to_pattern.do?sys_id=975077b71b29a0108049eb1cad4bcb7a"&gt;975077b71b29a0108049eb1cad4bcb7a&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>173b20dd25732898ac310ce3930f4583</update_guid>
+<update_guid_history>173b20dd25732898ac310ce3930f4583:1033142581,694aca22ab8aac9882c9731608cb0096:1033142581,9f5077b71d29a010c9ee2993e425367a:-1739001862</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_custom_operation_param_5cd75d919f0022003cb191aec32e7004</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_custom_operation_param"><sa_custom_operation_param action="INSERT_OR_UPDATE"><default_value>true</default_value><label>Required Authentication</label><mandatory>false</mandatory><name>required_authentication</name><operation display_value="Http Get Call">99a9f95a9f3312003cb191aec32e70e9</operation><order>100</order><sys_class_name>sa_custom_operation_param</sys_class_name><sys_created_by>yair.leibkowiz</sys_created_by><sys_created_on>2016-06-15 14:20:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5cd75d919f0022003cb191aec32e7004</sys_id><sys_mod_count>1</sys_mod_count><sys_name>required_authentication</sys_name><sys_overrides/><sys_package display_value="Pattern Designer" source="com.snc.pattern.designer">090998621b223300945b844fdd4bcbaa</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sa_custom_operation_param_5cd75d919f0022003cb191aec32e7004</sys_update_name><sys_updated_by>yair.leibkowiz</sys_updated_by><sys_updated_on>2017-03-16 12:56:59</sys_updated_on><validation_regex/></sa_custom_operation_param></record_update>]]></payload>
+<payload_hash>1672878477</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>633b20dd1b7328988049eb1cad4bcbb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9fa70000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>required_authentication</target_name>
+<type>Custom Operation Parameters</type>
+<u_link>[code]&lt;a title="required_authentication" class="linked" href="sa_custom_operation_param.do?sys_id=5cd75d919f0022003cb191aec32e7004"&gt;required_authentication&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>ab3b20ddce732898555e4a099c16e49b</update_guid>
+<update_guid_history>ab3b20ddce732898555e4a099c16e49b:1672878477,6d4aca22bd8aac989ae53a898d739aa7:1672878477</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sa_ci_to_pattern_e5a03b3b1b29a0108049eb1cad4bcb3d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_ci_to_pattern"><sa_ci_to_pattern action="INSERT_OR_UPDATE"><ci_type>cmdb_ci_fc_port</ci_type><deletion_strategy>1</deletion_strategy><is_main_ci>false</is_main_ci><pattern display_value="Infinidat">f7ae1b741b49a4508049eb1cad4bcb3a</pattern><strategy_script/><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-14 02:03:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e5a03b3b1b29a0108049eb1cad4bcb3d</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-14 02:03:35</sys_updated_on></sa_ci_to_pattern></record_update>]]></payload>
+<payload_hash>-979557679</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>673b20dd1b7328988049eb1cad4bcbb6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9e7c0000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>e5a03b3b1b29a0108049eb1cad4bcb3d</target_name>
+<type>Related CI Types</type>
+<u_link>[code]&lt;a title="e5a03b3b1b29a0108049eb1cad4bcb3d" class="linked" href="sa_ci_to_pattern.do?sys_id=e5a03b3b1b29a0108049eb1cad4bcb3d"&gt;e5a03b3b1b29a0108049eb1cad4bcb3d&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>533b20ddc37328983d1e8e7c55f72386</update_guid>
+<update_guid_history>533b20ddc37328983d1e8e7c55f72386:-979557679,254aca22d18aac9835f1f2596029d39b:-979557679,21a03b3b3229a01000fc0c12586a8a3e:-1431175018</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sa_ci_to_pattern_535077b71b29a0108049eb1cad4bcb79</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_ci_to_pattern"><sa_ci_to_pattern action="INSERT_OR_UPDATE"><ci_type>cmdb_ci_ip_address</ci_type><deletion_strategy>1</deletion_strategy><is_main_ci>false</is_main_ci><pattern display_value="Infinidat">f7ae1b741b49a4508049eb1cad4bcb3a</pattern><strategy_script/><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-14 02:02:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>535077b71b29a0108049eb1cad4bcb79</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-14 02:02:20</sys_updated_on></sa_ci_to_pattern></record_update>]]></payload>
+<payload_hash>1119767268</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>6b3b20dd1b7328988049eb1cad4bcbb5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9e290000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>535077b71b29a0108049eb1cad4bcb79</target_name>
+<type>Related CI Types</type>
+<u_link>[code]&lt;a title="535077b71b29a0108049eb1cad4bcb79" class="linked" href="sa_ci_to_pattern.do?sys_id=535077b71b29a0108049eb1cad4bcb79"&gt;535077b71b29a0108049eb1cad4bcb79&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>573b20dd6d732898de1bc36ada906682</update_guid>
+<update_guid_history>573b20dd6d732898de1bc36ada906682:1119767268,214aca22b58aac98a95ec7c786637395:1119767268,5b5077b71b29a010a9e58f2e3b702079:-84011159</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_pattern_prepost_script_2c658b001bfde4108049eb1cad4bcbc7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sa_pattern_prepost_script"&gt;&lt;sa_pattern_prepost_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;execution_type&gt;1&lt;/execution_type&gt;&lt;name&gt;Infinidat - Pre Sensor&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;pattern&gt;f7ae1b741b49a4508049eb1cad4bcb3a&lt;/pattern&gt;&lt;script&gt;&lt;![CDATA[/*
+ *   1. Pre sensor:   You can change payload before it will be proccesed by Identification Engine.
+ *     Use IEJsonUtility in order to add relevant information to the payload
+ *         Input parameters in Pre sensor mode: payload, patternId
+ *   2. Post sensor: You can update/add missing info to the DB based on result (Json) from
+ *         Identification Engine
+ *         Output parameters in Post sensor mode: payload
+ *
+ */
+var rtrn = {};
+
+//parsing the json string to a json object
+
+var payloadObj = JSON.parse(payload);
+
+//put your business logic here
+
+var handleServerData = function() {
+    var server = '';
+	var manufacturer, model;
+
+    var payloadItems = payloadObj.items;
+		for (var i = 0; i &lt; payloadItems.length; i++) {
+			if (payloadItems[i].className === 'cmdb_ci_storage_cluster_node') { //Get server key under the class
+
+				var currentItem = payloadItems[i];
+
+				server = currentItem.values.server;
+
+				if (server &amp;&amp; server.length) {
+
+					var gr = new GlideRecord('cmdb_ci_server');
+
+					if (gr.get('name', server)) { //look up server sys_id by server name field. 
+
+						currentItem.values.server = gr.sys_id + ''; 
+
+					}
+
+				}
+
+			}
+			else if (payloadItems[i].className === 'cmdb_ci_storage_server') { //Get server key under the class	
+				manufacturer = "Infinidat";
+				model = "Infinibox " + payloadItems[i].values.model_id;
+				var makeAndModel = MakeAndModelJS.fromNames(manufacturer, model, 'hardware');
+				if (!gs.nil(makeAndModel.getManufacturerSysID()))
+					payloadItems[i].values.manufacturer = makeAndModel.getManufacturerSysID();
+				if (!gs.nil(makeAndModel.getModelNameSysID()))
+					payloadItems[i].values.model_id = makeAndModel.getModelNameSysID();
+			}
+			/*
+            var currentItem = payloadItems[i];
+
+            model = currentItem.values.model_id;
+            if (model &amp;&amp; model.length) {
+
+                var gr = new GlideRecord('cmdb_model');
+				
+				gr.addQuery("name", "CONTAINS", "Infinibox");
+				gr.addQuery("name", "CONTAINS", model);
+				gr.query();
+				if (gr.next()){
+					currentItem.values.model_id = gr.sys_id + ''; 
+				}    
+
+            }
+			*/
+
+        }
+
+};
+
+handleServerData();
+
+
+rtrn = {
+    'status': {
+        'message': 'Replaced cluster node server or model_id with sys id',
+        'isSuccess': true
+    },
+    'patternId': patternId,
+    'payload': JSON.stringify(payloadObj)
+
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sa_pattern_prepost_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sn.jeffmu_rapdev.local&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-14 17:33:02&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;2c658b001bfde4108049eb1cad4bcbc7&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;Infinidat - Pre Sensor&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sa_pattern_prepost_script_2c658b001bfde4108049eb1cad4bcbc7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sn.jeffmu_rapdev.local&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-12 16:34:53&lt;/sys_updated_on&gt;&lt;when_to_exec&gt;1&lt;/when_to_exec&gt;&lt;/sa_pattern_prepost_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>251165414</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>6b3b20dd1b7328988049eb1cad4bcbb8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9db90000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>Infinidat - Pre Sensor</target_name>
+<type>Pattern Pre/Post Script</type>
+<u_link>[code]&lt;a title="Infinidat - Pre Sensor" class="linked" href="sa_pattern_prepost_script.do?sys_id=2c658b001bfde4108049eb1cad4bcbc7"&gt;Infinidat - Pre Sensor&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>1f3b20ddcc7328988867fefd75e12a7d</update_guid>
+<update_guid_history>1f3b20ddcc7328988867fefd75e12a7d:251165414,e72e8ce93d5aa4908111bdf617a6aff4:251165414,1a9dc8696b5aa490fb92e6185152d395:-1606771276,8b6b00215ed264108403eb6eb5085308:-1814771447,52aa486dfc926410fae51099341331f0:-1223075913,9948f755d816a490eac6a074d8b210f5:1079959779,22577f91ff16a490013dd7909ce12425:188368216,acf67f512716a490203bad6707016f09:2028018054,8036f39dd1d2a49092d057c5eb1411a4:-1573809391,fb9533d9bfd2a490f625d209ac9441c5:1090054307,95b3bb9179d2a490f76607a84b586f2c:766606255,1da337515dd2a49001d99e1c2fe725ba:-662589355,df93f7912ad2a490444fbd2b9d8512e1:1820258666,72edc7880e712810150a637cc16efa5b:-2098915439,d9edc7c84b71281018301c0b726e9178:-1984975294,bb2d07440a71281058e3b2d381570b67:1873169607,7a8c830c7e3128103d795f84821c6561:-1182363836,91758780d3fde410962db408484db665:807422939,f8658b0058fde4106c601271e5df11c9:-1055856431</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_custom_operation_param_e0604dbd1b3dac90c50f635bbc4bcbad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_custom_operation_param"><sa_custom_operation_param action="INSERT_OR_UPDATE"><default_value/><label>Headers</label><mandatory>false</mandatory><name>headers</name><operation display_value="Infinidat Get Call">088e7cfd1bf9ac90c50f635bbc4bcb5a</operation><order>100</order><sys_class_name>sa_custom_operation_param</sys_class_name><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-19 18:21:45</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e0604dbd1b3dac90c50f635bbc4bcbad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>headers</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sa_custom_operation_param_e0604dbd1b3dac90c50f635bbc4bcbad</sys_update_name><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-19 18:21:45</sys_updated_on><validation_regex/></sa_custom_operation_param></record_update>]]></payload>
+<payload_hash>1644455201</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>6f3b20dd1b7328988049eb1cad4bcbb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9f750000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>headers</target_name>
+<type>Custom Operation Parameters</type>
+<u_link>[code]&lt;a title="headers" class="linked" href="sa_custom_operation_param.do?sys_id=e0604dbd1b3dac90c50f635bbc4bcbad"&gt;headers&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>e73b20dd5f73289851e63c56092cd499</update_guid>
+<update_guid_history>e73b20dd5f73289851e63c56092cd499:1644455201,a54aca22fc8aac981dcb2aa6ef38e3a4:1644455201,cb70c9fd433dac90fe0dadd36b5d39ba:1072300988</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sa_ci_to_pattern_d75077b71b29a0108049eb1cad4bcb76</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_ci_to_pattern"><sa_ci_to_pattern action="INSERT_OR_UPDATE"><ci_type>cmdb_ci_disk</ci_type><deletion_strategy>1</deletion_strategy><is_main_ci>false</is_main_ci><pattern display_value="Infinidat">f7ae1b741b49a4508049eb1cad4bcb3a</pattern><strategy_script/><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-14 02:02:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d75077b71b29a0108049eb1cad4bcb76</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-14 02:02:20</sys_updated_on></sa_ci_to_pattern></record_update>]]></payload>
+<payload_hash>1207123779</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>a33b20dd1b7328988049eb1cad4bcbb6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9e670000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>d75077b71b29a0108049eb1cad4bcb76</target_name>
+<type>Related CI Types</type>
+<u_link>[code]&lt;a title="d75077b71b29a0108049eb1cad4bcb76" class="linked" href="sa_ci_to_pattern.do?sys_id=d75077b71b29a0108049eb1cad4bcb76"&gt;d75077b71b29a0108049eb1cad4bcb76&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>933b20dd8173289894a708872ab36485</update_guid>
+<update_guid_history>933b20dd8173289894a708872ab36485:1207123779,e94aca22ad8aac983aa7b7c86dc59599:1207123779,df5077b73529a010d579317989932376:1673311624</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sa_ci_to_pattern_2154af751ba920108049eb1cad4bcbba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_ci_to_pattern"><sa_ci_to_pattern action="INSERT_OR_UPDATE"><ci_type>cmdb_ci_storage_cluster</ci_type><deletion_strategy>1</deletion_strategy><is_main_ci>false</is_main_ci><pattern display_value="Infinidat">f7ae1b741b49a4508049eb1cad4bcb3a</pattern><strategy_script/><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-07 20:01:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2154af751ba920108049eb1cad4bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-07 20:01:56</sys_updated_on></sa_ci_to_pattern></record_update>]]></payload>
+<payload_hash>353118014</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>a73b20dd1b7328988049eb1cad4bcbb5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9e130000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>2154af751ba920108049eb1cad4bcbba</target_name>
+<type>Related CI Types</type>
+<u_link>[code]&lt;a title="2154af751ba920108049eb1cad4bcbba" class="linked" href="sa_ci_to_pattern.do?sys_id=2154af751ba920108049eb1cad4bcbba"&gt;2154af751ba920108049eb1cad4bcbba&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>973b20ddcc7328986b176624decf1d81</update_guid>
+<update_guid_history>973b20ddcc7328986b176624decf1d81:353118014,e54aca22158aac98c15be039cdf8be93:353118014,2954af75b3a92010c408b2ea2db51eba:2134914627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_pattern_f7ae1b741b49a4508049eb1cad4bcb3a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_pattern"><sa_pattern action="INSERT_OR_UPDATE"><active>true</active><ci_type>cmdb_ci_storage_server</ci_type><cpattern_type>3</cpattern_type><description/><directory>false</directory><enforce_proc_classy>false</enforce_proc_classy><invoke_per_account>false</invoke_per_account><metadata_id>f7ae1b741b49a4508049eb1cad4bcb3a</metadata_id><name>Infinidat</name><ndl>pattern {&#13;
+	metadata {&#13;
+		id = "f7ae1b741b49a4508049eb1cad4bcb3a"&#13;
+		name = "Infinidat"&#13;
+		description = ""&#13;
+		citype = "cmdb_ci_storage_server"&#13;
+	}&#13;
+	identification {&#13;
+		name = "Identification"&#13;
+		entry_point {type = "*"}&#13;
+		find_process_strategy {strategy = NONE}&#13;
+		step {&#13;
+			name = "setup host variable"&#13;
+			set_attr {&#13;
+				"host"&#13;
+				get_attr {"computer_system.managementIP"}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "get system phys info"&#13;
+			custom_operation {&#13;
+				attributes {&#13;
+					attribute {&#13;
+						name = "required_authentication"&#13;
+						value = "true"&#13;
+					}&#13;
+					attribute {&#13;
+						name = "url"&#13;
+						value = concat {&#13;
+							"http://"&#13;
+							get_attr {"host"}&#13;
+							"/api/rest/system"&#13;
+						}&#13;
+					}&#13;
+					attribute {&#13;
+						name = "headers"&#13;
+						value = ""&#13;
+					}&#13;
+				}&#13;
+				sys_id_op = "99a9f95a9f3312003cb191aec32e70e9"&#13;
+				to_var_names = table {&#13;
+					name = "system_phys_info"&#13;
+					col_names = "serial_number","name","firmware_version","product_id","model_id"&#13;
+				}&#13;
+				parsing_strategy = custom_parsing_strategy {&#13;
+					sys_id = "512a3d5a9f3312003cb191aec32e708a"&#13;
+					rootXpath = "/root"&#13;
+					fields {&#13;
+						field {&#13;
+							col_name = "serial_number"&#13;
+							xpath = "/root/result/serial_number/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "name"&#13;
+							xpath = "/root/result/name/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "firmware_version"&#13;
+							xpath = "/root/result/version/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "product_id"&#13;
+							xpath = "/root/result/product_id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "model_id"&#13;
+							xpath = "/root/result/model/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "forEach"&#13;
+							for_each = "forEach"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+				is_paginated = 0&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "match infinibox"&#13;
+			match {&#13;
+				contains {&#13;
+					get_attr {"system_phys_info[1].product_id"}&#13;
+					"INFINIBOX"&#13;
+				}&#13;
+				terminate_op = terminate&#13;
+				terminate_msg = ""&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "get cluster info"&#13;
+			custom_operation {&#13;
+				attributes {&#13;
+					attribute {&#13;
+						name = "required_authentication"&#13;
+						value = "true"&#13;
+					}&#13;
+					attribute {&#13;
+						name = "url"&#13;
+						value = concat {&#13;
+							"http://"&#13;
+							get_attr {"host"}&#13;
+							"/api/rest/clusters"&#13;
+						}&#13;
+					}&#13;
+					attribute {&#13;
+						name = "headers"&#13;
+						value = ""&#13;
+					}&#13;
+				}&#13;
+				sys_id_op = "99a9f95a9f3312003cb191aec32e70e9"&#13;
+				to_var_names = "cluster_info_parsing"&#13;
+				parsing_strategy = delimited_parsing {&#13;
+					selected_positions = 1&#13;
+					line_seperator = "nonExistingLineSeparator"&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+				is_paginated = 0&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "parse cluster info"&#13;
+			parse_var_to_var {&#13;
+				from_var_name = "cluster_info_parsing"&#13;
+				to_var_names = table {&#13;
+					name = "cluster_info"&#13;
+					col_names = "name","id"&#13;
+				}&#13;
+				parsing_strategy = custom_parsing_strategy {&#13;
+					sys_id = "512a3d5a9f3312003cb191aec32e708a"&#13;
+					rootXpath = "/root"&#13;
+					fields {&#13;
+						field {&#13;
+							col_name = "name"&#13;
+							xpath = "/root/result/name/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "id"&#13;
+							xpath = "/root/result/id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "forEach"&#13;
+							for_each = "forEach"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "parse cluster volume info"&#13;
+			parse_var_to_var {&#13;
+				from_var_name = "cluster_info_parsing"&#13;
+				to_var_names = table {&#13;
+					name = "cluster_volumes"&#13;
+					col_names = "cluster","id","volume_id"&#13;
+				}&#13;
+				parsing_strategy = custom_parsing_strategy {&#13;
+					sys_id = "512a3d5a9f3312003cb191aec32e708a"&#13;
+					rootXpath = "/root"&#13;
+					fields {&#13;
+						field {&#13;
+							col_name = "cluster"&#13;
+							xpath = "/root/result/name/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "id"&#13;
+							xpath = "/root/result/id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "volume_id"&#13;
+							xpath = "/root/result/hosts/luns/volume_id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "forEach"&#13;
+							for_each = "forEach"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate cmdb_ci_storage_server"&#13;
+			transform {&#13;
+				src_table_name = "system_phys_info"&#13;
+				target_table_name = "cmdb_ci_storage_server"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "name"&#13;
+						value = get_attr {"system_phys_info[1].name"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "host_name"&#13;
+						value = get_attr {"system_phys_info[1].name"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "model_id"&#13;
+						value = get_attr {"system_phys_info[1].model_id"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "ip_address"&#13;
+						value = get_attr {"computer_system.managementIP"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "firmware_version"&#13;
+						value = concat {&#13;
+							get_attr {"system_phys_info[1].product_id"}&#13;
+							" "&#13;
+							get_attr {"system_phys_info[1].firmware_version"}&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate cmdb_ci_storage_cluster"&#13;
+			transform {&#13;
+				src_table_name = "cluster_info"&#13;
+				target_table_name = "cmdb_ci_storage_cluster"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "name"&#13;
+						value = get_attr {"cluster_info[].name"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "correlation_id"&#13;
+						value = get_attr {"cluster_info[].id"}&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "relation to cmdb_ci_storage_server"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_cluster"&#13;
+				table2_name = "cmdb_ci_storage_server"&#13;
+				result_table_name = "storage_cluster_to_storage_server"&#13;
+				unmatched_lines = keep&#13;
+				condition = eq {&#13;
+					"1"&#13;
+					"1"&#13;
+				}&#13;
+				relation_type = "Managed by::Manages"&#13;
+				ref_direction = parentToChild&#13;
+				ref_field_name = ""&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "parse cluster nodes"&#13;
+			parse_var_to_var {&#13;
+				from_var_name = "cluster_info_parsing"&#13;
+				to_var_names = table {&#13;
+					name = "cluster_nodes"&#13;
+					col_names = "id","name","cluster"&#13;
+				}&#13;
+				parsing_strategy = custom_parsing_strategy {&#13;
+					sys_id = "512a3d5a9f3312003cb191aec32e708a"&#13;
+					rootXpath = "/root"&#13;
+					fields {&#13;
+						field {&#13;
+							col_name = "id"&#13;
+							xpath = "/root/result/hosts/id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "name"&#13;
+							xpath = "/root/result/hosts/name/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "cluster"&#13;
+							xpath = "/root/result/name/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "forEach"&#13;
+							for_each = "forEach"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate cmdb_ci_storage_cluster_node"&#13;
+			transform {&#13;
+				src_table_name = "cluster_nodes"&#13;
+				target_table_name = "cmdb_ci_storage_cluster_node"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "server"&#13;
+						value = get_attr {"cluster_nodes[].name"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "name"&#13;
+						value = eval {"javascript: var rtrn = \"\";//get the cluster nodes in one array&#13;
+var nodes_arr = ${cluster_nodes[*].id};&#13;
+var curr = ${cluster_nodes[].id};&#13;
+var i;&#13;
+rtrn = ${cluster_nodes[].cluster}+ \" - \" + nodes_arr.indexOf(curr);"}&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "relation and reference to cmdb_ci_storage_cluster"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_cluster_node"&#13;
+				table2_name = "cmdb_ci_storage_cluster"&#13;
+				result_table_name = "storage_cluster_node_to_storage_cluster"&#13;
+				unmatched_lines = remove&#13;
+				condition = eq {&#13;
+					get_attr {"cmdb_ci_storage_cluster_node[].cluster"}&#13;
+					get_attr {"cmdb_ci_storage_cluster[].name"}&#13;
+				}&#13;
+				relation_type = "Cluster of::Cluster"&#13;
+				ref_direction = parentToChild&#13;
+				ref_field_name = "cluster"&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "get lnn interfaces"&#13;
+			custom_operation {&#13;
+				attributes {&#13;
+					attribute {&#13;
+						name = "required_authentication"&#13;
+						value = "true"&#13;
+					}&#13;
+					attribute {&#13;
+						name = "url"&#13;
+						value = concat {&#13;
+							"http://"&#13;
+							get_attr {"host"}&#13;
+							"/api/rest/network/interfaces"&#13;
+						}&#13;
+					}&#13;
+					attribute {&#13;
+						name = "headers"&#13;
+						value = ""&#13;
+					}&#13;
+				}&#13;
+				sys_id_op = "99a9f95a9f3312003cb191aec32e70e9"&#13;
+				to_var_names = table {&#13;
+					name = "lnn_interfaces"&#13;
+					col_names = "lnn_id","name","lnn","operational_status","interface_type"&#13;
+				}&#13;
+				parsing_strategy = custom_parsing_strategy {&#13;
+					sys_id = "512a3d5a9f3312003cb191aec32e708a"&#13;
+					rootXpath = "/root"&#13;
+					fields {&#13;
+						field {&#13;
+							col_name = "lnn_id"&#13;
+							xpath = "/root/result/id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "name"&#13;
+							xpath = "/root/result/name/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "lnn"&#13;
+							xpath = "/root/result/node_id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "operational_status"&#13;
+							xpath = "/root/result/state/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "interface_type"&#13;
+							xpath = "/root/result/type/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "forEach"&#13;
+							for_each = "forEach"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+				is_paginated = 0&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "remove duplicate interfaces"&#13;
+			set_attr {&#13;
+				"duplicate"&#13;
+				eval {"javascript: var tableWithoutDuplicates = '';&#13;
+tableWithoutDuplicates =  DuplicateRemover.removeDuplicates(${lnn_interfaces},[\"name\"]);&#13;
+CTX.setAttribute(\"lnn_interfaces\", tableWithoutDuplicates);"}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate cmdb_ci_network_adapter"&#13;
+			transform {&#13;
+				src_table_name = "lnn_interfaces"&#13;
+				target_table_name = "cmdb_ci_network_adapter"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "active"&#13;
+						value = eval {"javascript: var rtrn = '';&#13;
+var currentNicStatus = ${lnn_interfaces[].operational_status};&#13;
+currentNicStatus = currentNicStatus.toLowerCase();&#13;
+if(currentNicStatus == 'enabled')&#13;
+   {      rtrn = \"1\";   }&#13;
+else &#13;
+   {      rtrn = \"2\";   }"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "name"&#13;
+						value = concat {&#13;
+							get_attr {"lnn_interfaces[].name"}&#13;
+							" - "&#13;
+							get_attr {"lnn_interfaces[1].lnn_id"}&#13;
+						}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "mac_address"&#13;
+						value = "Infinidat Virtual Interface"&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "relation and reference to cmdb_ci_storage_server"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_server"&#13;
+				table2_name = "cmdb_ci_network_adapter"&#13;
+				result_table_name = "nic_to_storage_server"&#13;
+				unmatched_lines = keep&#13;
+				condition = eq {&#13;
+					"1"&#13;
+					"1"&#13;
+				}&#13;
+				relation_type = "Owns::Owned by"&#13;
+				ref_direction = childToParent&#13;
+				ref_field_name = "cmdb_ci"&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "get node pools"&#13;
+			custom_operation {&#13;
+				attributes {&#13;
+					attribute {&#13;
+						name = "required_authentication"&#13;
+						value = "true"&#13;
+					}&#13;
+					attribute {&#13;
+						name = "url"&#13;
+						value = concat {&#13;
+							"http://"&#13;
+							get_attr {"host"}&#13;
+							"/api/rest/pools"&#13;
+						}&#13;
+					}&#13;
+					attribute {&#13;
+						name = "headers"&#13;
+						value = ""&#13;
+					}&#13;
+				}&#13;
+				sys_id_op = "99a9f95a9f3312003cb191aec32e70e9"&#13;
+				to_var_names = table {&#13;
+					name = "network_pools"&#13;
+					col_names = "pool_name","pool_id","size","free_space"&#13;
+				}&#13;
+				parsing_strategy = custom_parsing_strategy {&#13;
+					sys_id = "512a3d5a9f3312003cb191aec32e708a"&#13;
+					rootXpath = "/root"&#13;
+					fields {&#13;
+						field {&#13;
+							col_name = "pool_name"&#13;
+							xpath = "/root/result/name/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "pool_id"&#13;
+							xpath = "/root/result/id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "size"&#13;
+							xpath = "/root/result/physical_capacity/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "free_space"&#13;
+							xpath = "/root/result/free_physical_space/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "forEach"&#13;
+							for_each = "forEach"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+				is_paginated = 0&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate cmdb_ci_storage_pool"&#13;
+			transform {&#13;
+				src_table_name = "network_pools"&#13;
+				target_table_name = "cmdb_ci_storage_pool"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "pool_id"&#13;
+						value = get_attr {"network_pools[].pool_id"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "name"&#13;
+						value = get_attr {"network_pools[].pool_name"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "size"&#13;
+						value = get_attr {"network_pools[].size"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "free_space_byes"&#13;
+						value = get_attr {"network_pools[].free_space"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "object_id"&#13;
+						value = concat {&#13;
+							"id:"&#13;
+							get_attr {"network_pools[].pool_id"}&#13;
+							"-"&#13;
+							get_attr {"network_pools[].pool_name"}&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "relation and reference to cmdb_ci_storage_server"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_server"&#13;
+				table2_name = "cmdb_ci_storage_pool"&#13;
+				result_table_name = "pool_to_storage_server"&#13;
+				unmatched_lines = remove&#13;
+				condition = eq {&#13;
+					"1"&#13;
+					"1"&#13;
+				}&#13;
+				relation_type = "Contains::Contained by"&#13;
+				ref_direction = childToParent&#13;
+				ref_field_name = "hosted_by"&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "get storage volumes"&#13;
+			custom_operation {&#13;
+				attributes {&#13;
+					attribute {&#13;
+						name = "required_authentication"&#13;
+						value = "true"&#13;
+					}&#13;
+					attribute {&#13;
+						name = "headers"&#13;
+						value = ""&#13;
+					}&#13;
+					attribute {&#13;
+						name = "url"&#13;
+						value = concat {&#13;
+							"http://"&#13;
+							get_attr {"host"}&#13;
+							"/api/rest/volumes?page_size=100"&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				sys_id_op = "088e7cfd1bf9ac90c50f635bbc4bcb5a"&#13;
+				to_var_names = "DummyVariableUse_response"&#13;
+				parsing_strategy = delimited_parsing {&#13;
+					selected_positions = 1&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+				is_paginated = 0&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "parse storage volumes"&#13;
+			parse_var_to_var {&#13;
+				from_var_name = "response"&#13;
+				to_var_names = table {&#13;
+					name = "storage_volume"&#13;
+					col_names = "name","id","type","total_bytes","pool_id"&#13;
+				}&#13;
+				parsing_strategy = custom_parsing_strategy {&#13;
+					sys_id = "512a3d5a9f3312003cb191aec32e708a"&#13;
+					rootXpath = "/root"&#13;
+					fields {&#13;
+						field {&#13;
+							col_name = "name"&#13;
+							xpath = "/root/result/name/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "id"&#13;
+							xpath = "/root/result/id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "type"&#13;
+							xpath = "/root/result/type/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "total_bytes"&#13;
+							xpath = "/root/result/size/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "pool_id"&#13;
+							xpath = "/root/result/pool_id/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "forEach"&#13;
+							for_each = "forEach"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate cmdb_ci_storage_volume"&#13;
+			transform {&#13;
+				src_table_name = "storage_volume"&#13;
+				target_table_name = "cmdb_ci_storage_volume"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "media_type"&#13;
+						value = get_attr {"storage_volume[].type"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "object_id"&#13;
+						value = get_attr {"storage_volume[].id"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "size_bytes"&#13;
+						value = get_attr {"storage_volume[].total_bytes"}&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "relation to cmdb_ci_storage_cluster"&#13;
+			disabled = "true"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_cluster"&#13;
+				table2_name = "cmdb_ci_storage_volume"&#13;
+				result_table_name = "volume_to_cluster"&#13;
+				unmatched_lines = remove&#13;
+				condition = contains {&#13;
+					eval {"javascript: var rtrn = \"\";&#13;
+var curr_cluster = ${cmdb_ci_storage_cluster[].name};&#13;
+
+&#13;
+
+var volume_id = ${cluster_volumes[*].volume_id}.toArray();                            &#13;
+var clusters = ${cluster_volumes[*].cluster}.toArray();&#13;
+var i;&#13;
+
+&#13;
+for (i = 0; i &lt;volume_id.length; i++){      &#13;
+   if (clusters[i] == curr_cluster){ &#13;
+      rtrn += \" \" + volume_id[i];   &#13;
+   }  &#13;
+}&#13;
+"}&#13;
+					get_attr {"cmdb_ci_storage_volume[].object_id"}&#13;
+				}&#13;
+				relation_type = "Owns::Owned by"&#13;
+				ref_direction = parentToChild&#13;
+				ref_field_name = ""&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = " reference to cmdb_ci_storage_pool"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_pool"&#13;
+				table2_name = "cmdb_ci_storage_volume"&#13;
+				result_table_name = "storage_volume_to_storage_pool"&#13;
+				unmatched_lines = remove&#13;
+				condition = eq {&#13;
+					get_attr {"cmdb_ci_storage_pool[].pool_id"}&#13;
+					get_attr {"cmdb_ci_storage_volume[].pool_id"}&#13;
+				}&#13;
+				ref_direction = childToParent&#13;
+				ref_field_name = "provided_by"&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "relation and reference to cmdb_ci_storage_server"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_server"&#13;
+				table2_name = "cmdb_ci_storage_volume"&#13;
+				result_table_name = "storage_volume_to_storage_server"&#13;
+				unmatched_lines = keep&#13;
+				condition = eq {&#13;
+					"1"&#13;
+					"1"&#13;
+				}&#13;
+				relation_type = "Contains::Contained by"&#13;
+				ref_direction = childToParent&#13;
+				ref_field_name = "computer"&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "get enclosure drives "&#13;
+			custom_operation {&#13;
+				attributes {&#13;
+					attribute {&#13;
+						name = "required_authentication"&#13;
+						value = "true"&#13;
+					}&#13;
+					attribute {&#13;
+						name = "url"&#13;
+						value = concat {&#13;
+							"http://"&#13;
+							get_attr {"host"}&#13;
+							"/api/rest/components"&#13;
+						}&#13;
+					}&#13;
+					attribute {&#13;
+						name = "headers"&#13;
+						value = ""&#13;
+					}&#13;
+				}&#13;
+				sys_id_op = "99a9f95a9f3312003cb191aec32e70e9"&#13;
+				to_var_names = table {&#13;
+					name = "cluster_drives"&#13;
+					col_names = "model","vendor","serial_number","size"&#13;
+				}&#13;
+				parsing_strategy = custom_parsing_strategy {&#13;
+					sys_id = "512a3d5a9f3312003cb191aec32e708a"&#13;
+					rootXpath = "/root"&#13;
+					fields {&#13;
+						field {&#13;
+							col_name = "model"&#13;
+							xpath = "/root/result/enclosures/drives/model/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "vendor"&#13;
+							xpath = "/root/result/enclosures/drives/vendor/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "serial_number"&#13;
+							xpath = "/root/result/enclosures/drives/serial_number/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "size"&#13;
+							xpath = "/root/result/enclosures/drives/bytes_capacity/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "forEach"&#13;
+							for_each = "forEach"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+				is_paginated = 0&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "filter drives table"&#13;
+			filter {&#13;
+				src_table_name = "cluster_drives"&#13;
+				target_table_name = "cluster_drives"&#13;
+				condition = neq {&#13;
+					get_attr {"cluster_drives[].size"}&#13;
+					"0"&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "remove duplicate disks"&#13;
+			set_attr {&#13;
+				"duplicate_disk"&#13;
+				eval {"javascript: var tableWithoutDuplicates = '';&#13;
+tableWithoutDuplicates =  DuplicateRemover.removeDuplicates(${cluster_drives},[\"model\",\"serial_number\"]);&#13;
+CTX.setAttribute(\"cluster_drives\", tableWithoutDuplicates);"}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate cmdb_ci_disk"&#13;
+			transform {&#13;
+				src_table_name = "cluster_drives"&#13;
+				target_table_name = "cmdb_ci_disk"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "size_bytes"&#13;
+						value = get_attr {"cluster_drives[].size"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "device_id"&#13;
+						value = eval {"javascript: var rtrn = \"\";&#13;
+var vendor = ${cluster_drives[].vendor};&#13;
+
+rtrn = \"id:\"+vendor + \" \" + ${cluster_drives[].serial_number};&#13;
+"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "serial_number"&#13;
+						value = get_attr {"cluster_drives[].serial_number"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "name"&#13;
+						value = eval {"javascript: var rtrn = \"\";var vendor = ${cluster_drives[].vendor};rtrn = vendor + \" \" + ${cluster_drives[].serial_number};"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "drive_type"&#13;
+						value = "disk"&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "relation to cmdb_ci_storage_cluster"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_server"&#13;
+				table2_name = "cmdb_ci_storage_cluster"&#13;
+				result_table_name = "storage_server_to_storage_cluster"&#13;
+				unmatched_lines = remove&#13;
+				condition = eq {&#13;
+					"1"&#13;
+					"1"&#13;
+				}&#13;
+				relation_type = "Runs on::Runs"&#13;
+				ref_direction = parentToChild&#13;
+				ref_field_name = ""&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "reference to  cmdb_ci_storage_server"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_server"&#13;
+				table2_name = "cmdb_ci_disk"&#13;
+				result_table_name = "disk_to_storage_server"&#13;
+				unmatched_lines = remove&#13;
+				condition = eq {&#13;
+					"1"&#13;
+					"1"&#13;
+				}&#13;
+				relation_type = "Contains::Contained by"&#13;
+				ref_direction = childToParent&#13;
+				ref_field_name = "computer"&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate cmdb_serial_number"&#13;
+			transform {&#13;
+				src_table_name = "system_phys_info"&#13;
+				target_table_name = "cmdb_serial_number"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "serial_number"&#13;
+						value = get_attr {"system_phys_info[1].serial_number"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "serial_number_type"&#13;
+						value = "infinidat serial number"&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "valid"&#13;
+						value = "true"&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "reference to cmdb_ci_storage_server"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_serial_number"&#13;
+				table2_name = "cmdb_ci_storage_server"&#13;
+				result_table_name = "serial_number_to_storage_server"&#13;
+				unmatched_lines = remove&#13;
+				condition = eq {&#13;
+					"1"&#13;
+					"1"&#13;
+				}&#13;
+				ref_direction = childToParent&#13;
+				ref_field_name = "cmdb_ci"&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate cmdb_ci_ip_address"&#13;
+			disabled = "true"&#13;
+			transform {&#13;
+				src_table_name = "system_phys_info"&#13;
+				target_table_name = "cmdb_ci_ip_address"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "name"&#13;
+						value = get_attr {"computer_system.managementIP"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "netmask"&#13;
+						value = "255.255.255.0"&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "ip_address"&#13;
+						value = get_attr {"computer_system.managementIP"}&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "relation to cmdb_ci_storage_server"&#13;
+			disabled = "true"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_server"&#13;
+				table2_name = "cmdb_ci_ip_address"&#13;
+				result_table_name = "ip_to_storage_server"&#13;
+				unmatched_lines = keep&#13;
+				condition = eq {&#13;
+					"1"&#13;
+					"1"&#13;
+				}&#13;
+				relation_type = "Uses::Used by"&#13;
+				ref_direction = parentToChild&#13;
+				ref_field_name = ""&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "get fc ports"&#13;
+			custom_operation {&#13;
+				attributes {&#13;
+					attribute {&#13;
+						name = "required_authentication"&#13;
+						value = "true"&#13;
+					}&#13;
+					attribute {&#13;
+						name = "url"&#13;
+						value = concat {&#13;
+							"http://"&#13;
+							get_attr {"host"}&#13;
+							"/api/rest/components"&#13;
+						}&#13;
+					}&#13;
+					attribute {&#13;
+						name = "headers"&#13;
+						value = ""&#13;
+					}&#13;
+				}&#13;
+				sys_id_op = "99a9f95a9f3312003cb191aec32e70e9"&#13;
+				to_var_names = table {&#13;
+					name = "fc_ports"&#13;
+					col_names = "wwnn","wwpn","speed"&#13;
+				}&#13;
+				parsing_strategy = custom_parsing_strategy {&#13;
+					sys_id = "512a3d5a9f3312003cb191aec32e708a"&#13;
+					rootXpath = "/root"&#13;
+					fields {&#13;
+						field {&#13;
+							col_name = "wwnn"&#13;
+							xpath = "/root/result/nodes/fc_ports/wwnn/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "wwpn"&#13;
+							xpath = "/root/result/nodes/fc_ports/wwpn/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "speed"&#13;
+							xpath = "/root/result/nodes/fc_ports/max_speed/text()"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+						field {&#13;
+							col_name = "forEach"&#13;
+							for_each = "forEach"&#13;
+							delimiters = ""&#13;
+							position = 1&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+				if_not_found_do = nop {}&#13;
+				is_paginated = 0&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "convert fc port speed to GFC"&#13;
+			transform {&#13;
+				src_table_name = "fc_ports"&#13;
+				target_table_name = "fc_ports"&#13;
+				operation {set_field {&#13;
+						field_name = "speed"&#13;
+						value = eval {"javascript: var rtrn = \"\";&#13;
+
+var speed = ${fc_ports[].speed};&#13;
+
+var gfc = Math.pow(10,9);&#13;
+
+gfc = Math.round(speed/gfc);&#13;
+
+rtrn = gfc + \" GFC\";&#13;
+
+"}&#13;
+					}}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "populate fc_port"&#13;
+			transform {&#13;
+				src_table_name = "fc_ports"&#13;
+				target_table_name = "cmdb_ci_fc_port"&#13;
+				operation {&#13;
+					set_field {&#13;
+						field_name = "wwnn"&#13;
+						value = get_attr {"fc_ports[].wwnn"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "wwpn"&#13;
+						value = get_attr {"fc_ports[].wwpn"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "speed"&#13;
+						value = get_attr {"fc_ports[].speed"}&#13;
+					}&#13;
+					set_field {&#13;
+						field_name = "name"&#13;
+						value = get_attr {"fc_ports[].wwpn"}&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		step {&#13;
+			name = "reference to cmdb_ci_storage_server"&#13;
+			relation_reference {&#13;
+				table1_name = "cmdb_ci_storage_server"&#13;
+				table2_name = "cmdb_ci_fc_port"&#13;
+				result_table_name = "fc_port_to_storage_Server"&#13;
+				unmatched_lines = keep&#13;
+				condition = eq {&#13;
+					"1"&#13;
+					"1"&#13;
+				}&#13;
+				relation_type = "Owns::Owned by"&#13;
+				ref_direction = childToParent&#13;
+				ref_field_name = "computer"&#13;
+			}&#13;
+		}&#13;
+	}&#13;
+}&#13;
+</ndl><parent/><serverless>false</serverless><source/><sys_class_name>sa_pattern</sys_class_name><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2020-12-10 20:31:55</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f7ae1b741b49a4508049eb1cad4bcb3a</sys_id><sys_mod_count>48</sys_mod_count><sys_name>Infinidat</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sa_pattern_f7ae1b741b49a4508049eb1cad4bcb3a</sys_update_name><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-19 19:42:25</sys_updated_on><version/></sa_pattern></record_update>]]></payload>
+<payload_hash>-377613669</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>a73b20dd1b7328988049eb1cad4bcbb8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9d6f0000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>Infinidat</target_name>
+<type>Discovery Patterns</type>
+<u_link>[code]&lt;a title="Infinidat" class="linked" href="sa_pattern.do?sys_id=f7ae1b741b49a4508049eb1cad4bcb3a"&gt;Infinidat&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>5f3b20dda6732898c78df65286915b18</update_guid>
+<update_guid_history>5f3b20dda6732898c78df65286915b18:-377613669,45f2d9f9e4f1ec90b6352092761f1dfb:-377613669,c71cec2839b1ac104bdca9c1b45c193c:704503319,b93560ec87b1ec105f0b540837957fc2:-1919727801,3ffcefc493f928103a30abd011978389:510309480,bb2b2bcc56b928100c63534973f750fb:-700680506,c308e7cc16792810657ed663152bd46b:510309480,3b372bc89e792810cf76cd028358b848:-700680506,27248fc84bbde410a54aae629bac9644:510309480,67d38388a1bde41064e5536932df9d98:-814265997,3d12434096bde410b31b5328e55e3015:2094203115,3401c388627de4100fb5d959d49ee38f:-435182123,672e360c363de410f7c5453b2845da9d:875063160,3baa72080ef9e4107f4e6ca4db3351fa:178690665,9a6a3284acf9e4104edb3274a6a2633e:-1973708409,1819728c51b9e410b9bc69f9cbedb35c:-1371944991,00387e082eb9e4104cea864a86d02910:-360329921,7bc77284cdb9e41063ed86ef4e3f9117:1283435293,97673ac0e8b9e410837c0fc9024cc439:956914875,061536842179e4108ecc7395228ce950:1495496177,7554b2805779e410febd3ef15b4cd32b:980326099,0348eac08675e410f906b8a68ccf682b:-1666529431,10b76a006675e410f657f89d64eb7580:-1113049717,56c5ae847635e410c39fa54a1a6d9bc1:1080011633,0e656244c735e410b91d1fdc7e301af0:-177899286,3ca3220c26f1e4101ecb445dd4cbafe9:1632128445,7d13e2481af1e41082c2c22ff6e41d4e:-1899416387,6f12e2c0cbf1e410d07eae1385a4b9af:-480883301,c290aec843b1e410ebadb890751a15b0:1100021117,58fe9e802ab1e41064d2ff3c8ce3aae7:323208633,7e99c08c2831e01020e255751a884293:-311615237,bce608ccdefda01088c1bbd20bf71dbf:274384960,8d76cc0ce2fda01062f886b8374dd5b8:-617277023,a1158c44e4fda010739e13c6551d1cc1:274384960,9ad108c084bda010b0ec8237dec4ba98:279989089,e6e9bffb28e9a010613076a96ed1bc2f:2051123290,a6d833b773e9a010860c3271dbbde255:-150696965,60e77733bbe9a0102a3f8c0f713e2d7d:-1918958126,73257f7314a9a01023d323bfb52cfafd:-1602047587,75d2b377ce69a01048e40296c11d193c:-276984038,22a32a77932d6c5020061ca4079684e0:2090642602,c5cccefb64256c5001c98d56078e1ea7:846988067,dbacc2fb41256c50d8af201571b2e7e0:-1454036926,66e2f8f8e591e410d7455b745a93213f:1015757487,33ae57f44f49a4503273e5efab0e75f5:160964011</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_custom_operation_param_b4e9f95a9f3312003cb191aec32e70e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_custom_operation_param"><sa_custom_operation_param action="INSERT_OR_UPDATE"><default_value/><label>Headers</label><mandatory>false</mandatory><name>headers</name><operation display_value="Http Get Call">99a9f95a9f3312003cb191aec32e70e9</operation><order>100</order><sys_class_name>sa_custom_operation_param</sys_class_name><sys_created_by>yair.leibkowiz</sys_created_by><sys_created_on>2016-06-06 08:15:41</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b4e9f95a9f3312003cb191aec32e70e2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>headers</sys_name><sys_overrides/><sys_package display_value="Pattern Designer" source="com.snc.pattern.designer">090998621b223300945b844fdd4bcbaa</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sa_custom_operation_param_b4e9f95a9f3312003cb191aec32e70e2</sys_update_name><sys_updated_by>yair.leibkowiz</sys_updated_by><sys_updated_on>2017-03-16 12:56:59</sys_updated_on><validation_regex/></sa_custom_operation_param></record_update>]]></payload>
+<payload_hash>1607414895</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>ab3b20dd1b7328988049eb1cad4bcbb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9fe10000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>headers</target_name>
+<type>Custom Operation Parameters</type>
+<u_link>[code]&lt;a title="headers" class="linked" href="sa_custom_operation_param.do?sys_id=b4e9f95a9f3312003cb191aec32e70e2"&gt;headers&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>2f3b20dda4732898e952ab902515379d</update_guid>
+<update_guid_history>2f3b20dda4732898e952ab902515379d:1607414895,654aca22b08aac9852d837e4e023a0aa:1607414895</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_custom_operation_99a9f95a9f3312003cb191aec32e70e9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sa_custom_operation"&gt;&lt;sa_custom_operation action="INSERT_OR_UPDATE"&gt;&lt;description&gt;perform simple  HTTP get call&lt;/description&gt;&lt;is_pagination_capable&gt;true&lt;/is_pagination_capable&gt;&lt;name&gt;Http Get Call&lt;/name&gt;&lt;script&gt;&lt;![CDATA[this.httpCall = Packages.com.snc.sw.commands.HttpCallHandler;
+var httpClient = new httpCall();
+var ciType = CTX.getAttribute('pattern_cit_id');
+var response = httpClient.invoke(CTX,$url, 'GET',null,null,ciType,$headers,$required_authentication);
+rtrn = response;
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sa_custom_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;yair.leibkowiz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-06 08:15:41&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;99a9f95a9f3312003cb191aec32e70e9&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Http Get Call&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pattern Designer" source="com.snc.pattern.designer"&gt;090998621b223300945b844fdd4bcbaa&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sa_custom_operation_99a9f95a9f3312003cb191aec32e70e9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sn.jeffmu_rapdev.local&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-15 19:08:37&lt;/sys_updated_on&gt;&lt;/sa_custom_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1738785640</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>af3b20dd1b7328988049eb1cad4bcbb6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9f380000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>Http Get Call</target_name>
+<type>Custom Operations</type>
+<u_link>[code]&lt;a title="Http Get Call" class="linked" href="sa_custom_operation.do?sys_id=99a9f95a9f3312003cb191aec32e70e9"&gt;Http Get Call&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>e33b20dd5d7328988fed8295279f8897</update_guid>
+<update_guid_history>e33b20dd5d7328988fed8295279f8897:-1738785640,aad4246cecb1ec10e294a98130874a34:-1738785640,e6d424e882b1ec1010ada6910060ca32:-952047341</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sa_ci_to_pattern_1f5077b71b29a0108049eb1cad4bcb77</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_ci_to_pattern"><sa_ci_to_pattern action="INSERT_OR_UPDATE"><ci_type>cmdb_ci_storage_pool</ci_type><deletion_strategy>1</deletion_strategy><is_main_ci>false</is_main_ci><pattern display_value="Infinidat">f7ae1b741b49a4508049eb1cad4bcb3a</pattern><strategy_script/><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-14 02:02:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1f5077b71b29a0108049eb1cad4bcb77</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-14 02:02:20</sys_updated_on></sa_ci_to_pattern></record_update>]]></payload>
+<payload_hash>1230025056</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>e33b20dd1b7328988049eb1cad4bcbb5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9e000000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>1f5077b71b29a0108049eb1cad4bcb77</target_name>
+<type>Related CI Types</type>
+<u_link>[code]&lt;a title="1f5077b71b29a0108049eb1cad4bcb77" class="linked" href="sa_ci_to_pattern.do?sys_id=1f5077b71b29a0108049eb1cad4bcb77"&gt;1f5077b71b29a0108049eb1cad4bcb77&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>d73b20ddc67328985f9d83364b55f480</update_guid>
+<update_guid_history>d73b20ddc67328985f9d83364b55f480:1230025056,e54aca22588aac987b20159b9d394e85:1230025056,175077b71a29a010df4d8978b86f7378:-995990299</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_custom_parsing_strategy_512a3d5a9f3312003cb191aec32e708a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_custom_parsing_strategy"><sa_custom_parsing_strategy action="INSERT_OR_UPDATE"><description>parse JSON formatted test to XML</description><name>JSON File</name><script>(function (root, factory) {&#13;
+	"use strict";&#13;
+&#13;
+	/* global define */&#13;
+    if (typeof define === 'function' &amp;&amp; define.amd) {&#13;
+        // AMD. Register as an anonymous module.&#13;
+        define([], factory);&#13;
+    } else if (typeof module === 'object' &amp;&amp; module.exports) {&#13;
+        // Node. Does not work with strict CommonJS, but only CommonJS-like&#13;
+		// environments that support module.exports, like Node.&#13;
+        module.exports = factory(require("xmldom").DOMParser);&#13;
+    } else {&#13;
+        // Browser globals (root is window)&#13;
+        root.X2JS = factory();&#13;
+	}&#13;
+})(this, function (CustomDOMParser) {&#13;
+	"use strict";&#13;
+&#13;
+    // We return a constructor that can be used to make X2JS instances.&#13;
+    return function X2JS(config) {&#13;
+		var VERSION = "3.1.0";&#13;
+&#13;
+		config = config || {};&#13;
+&#13;
+		function initConfigDefaults() {&#13;
+			// If set to "property" then &lt;element&gt;_asArray will be created&#13;
+			// to allow you to access any element as an array (even if there is only one of it).&#13;
+			config.arrayAccessForm = config.arrayAccessForm || "none";&#13;
+&#13;
+			// If "text" then &lt;empty&gt;&lt;/empty&gt; will be transformed to "".&#13;
+			// If "object" then &lt;empty&gt;&lt;/empty&gt; will be transformed to {}.&#13;
+			config.emptyNodeForm = config.emptyNodeForm || "text";&#13;
+&#13;
+			// Allows attribute values to be converted on the fly during parsing to objects.&#13;
+			// 	"test": function(name, value) { return true; }&#13;
+			//	"convert": function(name, value) { return parseFloat(value);&#13;
+			// convert() will be called for every attribute where test() returns true&#13;
+			// and the return value from convert() will replace the original value of the attribute.&#13;
+			config.attributeConverters = config.attributeConverters || [];&#13;
+&#13;
+			// Any elements that match the paths here will have their text parsed&#13;
+			// as an XML datetime value (2011-11-12T13:00:00-07:00 style).&#13;
+			// The path can be a plain string (parent.child1.child2),&#13;
+			// a regex (/.*\.child2/) or function(elementPath).&#13;
+			config.datetimeAccessFormPaths = config.datetimeAccessFormPaths || [];&#13;
+&#13;
+			// Any elements that match the paths listed here will be stored in JavaScript objects&#13;
+			// as arrays even if there is only one of them. The path can be a plain string&#13;
+			// (parent.child1.child2), a regex (/.*\.child2/) or function(elementName, elementPath).&#13;
+			config.arrayAccessFormPaths = config.arrayAccessFormPaths || [];&#13;
+&#13;
+			// If true, a toString function is generated to print nodes containing text or cdata.&#13;
+			// Useful if you want to accept both plain text and CData as equivalent inputs.&#13;
+			if (config.enableToStringFunc === undefined) {&#13;
+				config.enableToStringFunc = true;&#13;
+			}&#13;
+&#13;
+			// If true, empty text tags are ignored for elements with child nodes.&#13;
+			if (config.skipEmptyTextNodesForObj === undefined) {&#13;
+				config.skipEmptyTextNodesForObj = true;&#13;
+			}&#13;
+&#13;
+			// If true, whitespace is trimmed from text nodes.&#13;
+			if (config.stripWhitespaces === undefined) {&#13;
+				config.stripWhitespaces = true;&#13;
+			}&#13;
+&#13;
+			// If true, double quotes are used in generated XML.&#13;
+			if (config.useDoubleQuotes === undefined) {&#13;
+				config.useDoubleQuotes = true;&#13;
+			}&#13;
+&#13;
+			// If true, the root element of the XML document is ignored when converting to objects.&#13;
+			// The result will directly have the root element's children as its own properties.&#13;
+			if (config.ignoreRoot === undefined) {&#13;
+				config.ignoreRoot = false;&#13;
+			}&#13;
+&#13;
+			// Whether XML characters in text are escaped when reading/writing XML.&#13;
+			if (config.escapeMode === undefined) {&#13;
+				config.escapeMode = true;&#13;
+			}&#13;
+&#13;
+			// Prefix to use for properties that are created to represent XML attributes.&#13;
+			if (config.attributePrefix === undefined) {&#13;
+				config.attributePrefix = "_";&#13;
+			}&#13;
+&#13;
+			// If true, empty elements will created as self closing elements (&lt;element /&gt;)&#13;
+			// If false, empty elements will be created with start and end tags (&lt;element&gt;&lt;/element&gt;)&#13;
+			if (config.selfClosingElements === undefined) {&#13;
+				config.selfClosingElements = true;&#13;
+			}&#13;
+&#13;
+			// If this property defined as false and an XML element has CData node ONLY, it will be converted to text without additional property "__cdata"&#13;
+			if (config.keepCData === undefined) {&#13;
+				config.keepCData = false;&#13;
+			}&#13;
+		}&#13;
+&#13;
+		function initRequiredPolyfills() {&#13;
+			function pad(number) {&#13;
+				var r = String(number);&#13;
+				if (r.length === 1) {&#13;
+					r = '0' + r;&#13;
+				}&#13;
+				return r;&#13;
+			}&#13;
+			// Hello IE8-&#13;
+			if (typeof String.prototype.trim !== 'function') {&#13;
+				String.prototype.trim = function trim() {&#13;
+					return this.replace(/^\s+|^\n+|(\s|\n)+$/g, '');&#13;
+				};&#13;
+			}&#13;
+			if (typeof Date.prototype.toISOString !== 'function') {&#13;
+				// Implementation from http://stackoverflow.com/questions/2573521/how-do-i-output-an-iso-8601-formatted-string-in-javascript&#13;
+				Date.prototype.toISOString = function toISOString() {&#13;
+					var MS_IN_S = 1000;&#13;
+&#13;
+					return this.getUTCFullYear()&#13;
+						+ '-' + pad(this.getUTCMonth() + 1)&#13;
+						+ '-' + pad(this.getUTCDate())&#13;
+						+ 'T' + pad(this.getUTCHours())&#13;
+						+ ':' + pad(this.getUTCMinutes())&#13;
+						+ ':' + pad(this.getUTCSeconds())&#13;
+						+ '.' + String((this.getUTCMilliseconds() / MS_IN_S).toFixed(3)).slice(2, 5)&#13;
+						+ 'Z';&#13;
+				};&#13;
+			}&#13;
+		}&#13;
+&#13;
+		initConfigDefaults();&#13;
+		initRequiredPolyfills();&#13;
+&#13;
+		var DOMNodeTypes = {&#13;
+			"ELEMENT_NODE": 1,&#13;
+			"TEXT_NODE": 3,&#13;
+			"CDATA_SECTION_NODE": 4,&#13;
+			"COMMENT_NODE": 8,&#13;
+			"DOCUMENT_NODE": 9&#13;
+		};&#13;
+&#13;
+		function getDomNodeLocalName(domNode) {&#13;
+			var localName = domNode.localName;&#13;
+			if (localName == null) {&#13;
+				// Yeah, this is IE!!&#13;
+				localName = domNode.baseName;&#13;
+			}&#13;
+			if (localName == null || localName === "") {&#13;
+				// ==="" is IE too&#13;
+				localName = domNode.nodeName;&#13;
+			}&#13;
+			return localName;&#13;
+		}&#13;
+&#13;
+		function getDomNodeNamespacePrefix(node) {&#13;
+			return node.prefix;&#13;
+		}&#13;
+&#13;
+		function escapeXmlChars(str) {&#13;
+			if (typeof str === "string")&#13;
+				return str.replace(/&amp;/g, '&amp;amp;').replace(/&lt;/g, '&amp;lt;').replace(/&gt;/g, '&amp;gt;').replace(/"/g, '&amp;quot;').replace(/'/g, '&amp;#x27;');&#13;
+			else&#13;
+				return str;&#13;
+		}&#13;
+&#13;
+		function unescapeXmlChars(str) {&#13;
+			return str.replace(/&amp;lt;/g, '&lt;').replace(/&amp;gt;/g, '&gt;').replace(/&amp;quot;/g, '"').replace(/&amp;#x27;/g, "'").replace(/&amp;amp;/g, '&amp;');&#13;
+		}&#13;
+&#13;
+		function ensureProperArrayAccessForm(element, childName, elementPath) {&#13;
+			switch (config.arrayAccessForm) {&#13;
+				case "property":&#13;
+					if (!(element[childName] instanceof Array))&#13;
+						element[childName + "_asArray"] = [element[childName]];&#13;
+					else&#13;
+						element[childName + "_asArray"] = element[childName];&#13;
+					break;&#13;
+			}&#13;
+&#13;
+			if (!(element[childName] instanceof Array) &amp;&amp; config.arrayAccessFormPaths.length &gt; 0) {&#13;
+				var match = false;&#13;
+&#13;
+				for (var i = 0; i &lt; config.arrayAccessFormPaths.length; i++) {&#13;
+					var arrayPath = config.arrayAccessFormPaths[i];&#13;
+					if (typeof arrayPath === "string") {&#13;
+						if (arrayPath === elementPath) {&#13;
+							match = true;&#13;
+							break;&#13;
+						}&#13;
+					} else if (arrayPath instanceof RegExp) {&#13;
+						if (arrayPath.test(elementPath)) {&#13;
+							match = true;&#13;
+							break;&#13;
+						}&#13;
+					} else if (typeof arrayPath === "function") {&#13;
+						if (arrayPath(childName, elementPath)) {&#13;
+							match = true;&#13;
+							break;&#13;
+						}&#13;
+					}&#13;
+				}&#13;
+&#13;
+				if (match)&#13;
+					element[childName] = [element[childName]];&#13;
+			}&#13;
+		}&#13;
+&#13;
+		function xmlDateTimeToDate(prop) {&#13;
+			// Implementation based up on http://stackoverflow.com/questions/8178598/xml-datetime-to-javascript-date-object&#13;
+			// Improved to support full spec and optional parts&#13;
+			var MINUTES_PER_HOUR = 60;&#13;
+&#13;
+			var bits = prop.split(/[-T:+Z]/g);&#13;
+&#13;
+			var d = new Date(bits[0], bits[1] - 1, bits[2]);&#13;
+			var secondBits = bits[5].split("\.");&#13;
+			d.setHours(bits[3], bits[4], secondBits[0]);&#13;
+			if (secondBits.length &gt; 1)&#13;
+				d.setMilliseconds(secondBits[1]);&#13;
+&#13;
+			// Get supplied time zone offset in minutes&#13;
+			if (bits[6] &amp;&amp; bits[7]) {&#13;
+				var offsetMinutes = bits[6] * MINUTES_PER_HOUR + Number(bits[7]);&#13;
+				var sign = /\d\d-\d\d:\d\d$/.test(prop) ? '-' : '+';&#13;
+&#13;
+				// Apply the sign&#13;
+				offsetMinutes = 0 + (sign === '-' ? -1 * offsetMinutes : offsetMinutes);&#13;
+&#13;
+				// Apply offset and local timezone&#13;
+				d.setMinutes(d.getMinutes() - offsetMinutes - d.getTimezoneOffset());&#13;
+			} else if (prop.indexOf("Z", prop.length - 1) !== -1) {&#13;
+				d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate(), d.getHours(), d.getMinutes(), d.getSeconds(), d.getMilliseconds()));&#13;
+			}&#13;
+&#13;
+			// d is now a local time equivalent to the supplied time&#13;
+			return d;&#13;
+		}&#13;
+&#13;
+		function convertToDateIfRequired(value, childName, fullPath) {&#13;
+			if (config.datetimeAccessFormPaths.length &gt; 0) {&#13;
+				var pathWithoutTextNode = fullPath.split("\.#")[0];&#13;
+&#13;
+				for (var i = 0; i &lt; config.datetimeAccessFormPaths.length; i++) {&#13;
+					var candidatePath = config.datetimeAccessFormPaths[i];&#13;
+					if (typeof candidatePath === "string") {&#13;
+						if (candidatePath === pathWithoutTextNode)&#13;
+							return xmlDateTimeToDate(value);&#13;
+					} else if (candidatePath instanceof RegExp) {&#13;
+						if (candidatePath.test(pathWithoutTextNode))&#13;
+							return xmlDateTimeToDate(value);&#13;
+					} else if (typeof candidatePath === "function") {&#13;
+						if (candidatePath(pathWithoutTextNode))&#13;
+							return xmlDateTimeToDate(value);&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+&#13;
+			return value;&#13;
+		}&#13;
+&#13;
+		function deserializeRootElementChildren(rootElement) {&#13;
+			var result = {};&#13;
+			var children = rootElement.childNodes;&#13;
+&#13;
+			// Alternative for firstElementChild which is not supported in some environments&#13;
+			for (var i = 0; i &lt; children.length; i++) {&#13;
+				var child = children.item(i);&#13;
+				if (child.nodeType === DOMNodeTypes.ELEMENT_NODE) {&#13;
+					var childName = getDomNodeLocalName(child);&#13;
+&#13;
+					if (config.ignoreRoot)&#13;
+						result = deserializeDomChildren(child, childName);&#13;
+					else&#13;
+						result[childName] = deserializeDomChildren(child, childName);&#13;
+				}&#13;
+			}&#13;
+&#13;
+			return result;&#13;
+		}&#13;
+&#13;
+		function deserializeElementChildren(element, elementPath) {&#13;
+			var result = {};&#13;
+			result.__cnt = 0;&#13;
+&#13;
+			var nodeChildren = element.childNodes;&#13;
+&#13;
+			// Child nodes.&#13;
+			for (var iChild = 0; iChild &lt; nodeChildren.length; iChild++) {&#13;
+				var child = nodeChildren.item(iChild);&#13;
+				var childName = getDomNodeLocalName(child);&#13;
+&#13;
+				if (child.nodeType === DOMNodeTypes.COMMENT_NODE)&#13;
+					continue;&#13;
+&#13;
+				result.__cnt++;&#13;
+&#13;
+				// We deliberately do not accept everything falsey here because&#13;
+				// elements that resolve to empty string should still be preserved.&#13;
+				if (result[childName] == null) {&#13;
+					result[childName] = deserializeDomChildren(child, elementPath + "." + childName);&#13;
+					ensureProperArrayAccessForm(result, childName, elementPath + "." + childName);&#13;
+				} else {&#13;
+					if (!(result[childName] instanceof Array)) {&#13;
+						result[childName] = [result[childName]];&#13;
+						ensureProperArrayAccessForm(result, childName, elementPath + "." + childName);&#13;
+					}&#13;
+&#13;
+					result[childName][result[childName].length] = deserializeDomChildren(child, elementPath + "." + childName);&#13;
+				}&#13;
+			}&#13;
+&#13;
+			// Attributes&#13;
+			for (var iAttribute = 0; iAttribute &lt; element.attributes.length; iAttribute++) {&#13;
+				var attribute = element.attributes.item(iAttribute);&#13;
+				result.__cnt++;&#13;
+&#13;
+				var adjustedValue = attribute.value;&#13;
+				for (var iConverter = 0; iConverter &lt; config.attributeConverters.length; iConverter++) {&#13;
+					var converter = config.attributeConverters[iConverter];&#13;
+					if (converter.test.call(null, attribute.name, attribute.value))&#13;
+						adjustedValue = converter.convert.call(null, attribute.name, attribute.value);&#13;
+				}&#13;
+&#13;
+				result[config.attributePrefix + attribute.name] = adjustedValue;&#13;
+			}&#13;
+&#13;
+			// Node namespace prefix&#13;
+			var namespacePrefix = getDomNodeNamespacePrefix(element);&#13;
+			if (namespacePrefix) {&#13;
+				result.__cnt++;&#13;
+				result.__prefix = namespacePrefix;&#13;
+			}&#13;
+&#13;
+			if (result["#text"]) {&#13;
+				result.__text = result["#text"];&#13;
+&#13;
+				if (result.__text instanceof Array) {&#13;
+					result.__text = result.__text.join("\n");&#13;
+				}&#13;
+&#13;
+				if (config.escapeMode)&#13;
+					result.__text = unescapeXmlChars(result.__text);&#13;
+&#13;
+				if (config.stripWhitespaces)&#13;
+					result.__text = result.__text.trim();&#13;
+&#13;
+				delete result["#text"];&#13;
+&#13;
+				if (config.arrayAccessForm === "property")&#13;
+					delete result["#text_asArray"];&#13;
+&#13;
+				result.__text = convertToDateIfRequired(result.__text, "#text", elementPath + ".#text");&#13;
+			}&#13;
+&#13;
+			if (result.hasOwnProperty('#cdata-section')) {&#13;
+				result.__cdata = result["#cdata-section"];&#13;
+				delete result["#cdata-section"];&#13;
+&#13;
+				if (config.arrayAccessForm === "property")&#13;
+					delete result["#cdata-section_asArray"];&#13;
+			}&#13;
+&#13;
+			if (result.__cnt === 1 &amp;&amp; result.__text) {&#13;
+				result = result.__text;&#13;
+			} else if (result.__cnt === 0 &amp;&amp; config.emptyNodeForm === "text") {&#13;
+				result = '';&#13;
+			} else if (result.__cnt &gt; 1 &amp;&amp; result.__text !== undefined &amp;&amp; config.skipEmptyTextNodesForObj) {&#13;
+				if (config.stripWhitespaces &amp;&amp; result.__text === "" || result.__text.trim() === "") {&#13;
+					delete result.__text;&#13;
+				}&#13;
+			}&#13;
+			delete result.__cnt;&#13;
+			&#13;
+			if (!config.keepCData &amp;&amp; (!result.hasOwnProperty('__text') &amp;&amp; result.hasOwnProperty('__cdata'))) {&#13;
+				return (result.__cdata ? result.__cdata : '');&#13;
+			}&#13;
+&#13;
+			if (config.enableToStringFunc &amp;&amp; (result.__text || result.__cdata)) {&#13;
+				result.toString = function toString() {&#13;
+					return (this.__text ? this.__text : '') + (this.__cdata ? this.__cdata : '');&#13;
+				};&#13;
+			}&#13;
+&#13;
+			return result;&#13;
+		}&#13;
+&#13;
+		function deserializeDomChildren(node, parentPath) {&#13;
+			if (node.nodeType === DOMNodeTypes.DOCUMENT_NODE) {&#13;
+				return deserializeRootElementChildren(node);&#13;
+			} else if (node.nodeType === DOMNodeTypes.ELEMENT_NODE) {&#13;
+				return deserializeElementChildren(node, parentPath);&#13;
+			} else if (node.nodeType === DOMNodeTypes.TEXT_NODE || node.nodeType === DOMNodeTypes.CDATA_SECTION_NODE) {&#13;
+				return node.nodeValue;&#13;
+			} else {&#13;
+				return null;&#13;
+			}&#13;
+		}&#13;
+&#13;
+		function serializeStartTag(jsObject, elementName, attributeNames, selfClosing) {&#13;
+			var resultStr = "&lt;" + ((jsObject &amp;&amp; jsObject.__prefix) ? (jsObject.__prefix + ":") : "") + elementName;&#13;
+&#13;
+			if (attributeNames) {&#13;
+				for (var i = 0; i &lt; attributeNames.length; i++) {&#13;
+					var attributeName = attributeNames[i];&#13;
+					var attributeValue = jsObject[attributeName];&#13;
+&#13;
+					if (config.escapeMode)&#13;
+						attributeValue = escapeXmlChars(attributeValue);&#13;
+&#13;
+					resultStr += " " + attributeName.substr(config.attributePrefix.length) + "=";&#13;
+&#13;
+					if (config.useDoubleQuotes)&#13;
+						resultStr += '"' + attributeValue + '"';&#13;
+					else&#13;
+						resultStr += "'" + attributeValue + "'";&#13;
+				}&#13;
+			}&#13;
+&#13;
+			if (!selfClosing)&#13;
+				resultStr += "&gt;";&#13;
+			else&#13;
+				resultStr += " /&gt;";&#13;
+&#13;
+			return resultStr;&#13;
+		}&#13;
+&#13;
+		function serializeEndTag(jsObject, elementName) {&#13;
+			return "&lt;/" + ((jsObject &amp;&amp; jsObject.__prefix) ? (jsObject.__prefix + ":") : "") + elementName + "&gt;";&#13;
+		}&#13;
+&#13;
+		function endsWith(str, suffix) {&#13;
+			return str.indexOf(suffix, str.length - suffix.length) !== -1;&#13;
+		}&#13;
+&#13;
+		function isSpecialProperty(jsonObj, propertyName) {&#13;
+			if ((config.arrayAccessForm === "property" &amp;&amp; endsWith(propertyName.toString(), ("_asArray")))&#13;
+				|| propertyName.toString().indexOf(config.attributePrefix) === 0&#13;
+				|| propertyName.toString().indexOf("__") === 0&#13;
+				|| (jsonObj[propertyName] instanceof Function))&#13;
+				return true;&#13;
+			else&#13;
+				return false;&#13;
+		}&#13;
+&#13;
+		function getDataElementCount(jsObject) {&#13;
+			var count = 0;&#13;
+&#13;
+			if (jsObject instanceof Object) {&#13;
+				for (var propertyName in jsObject) {&#13;
+					if (isSpecialProperty(jsObject, propertyName))&#13;
+						continue;&#13;
+&#13;
+					count++;&#13;
+				}&#13;
+			}&#13;
+&#13;
+			return count;&#13;
+		}&#13;
+&#13;
+		function getDataAttributeNames(jsObject) {&#13;
+			var names = [];&#13;
+&#13;
+			if (jsObject instanceof Object) {&#13;
+				for (var attributeName in jsObject) {&#13;
+					if (attributeName.toString().indexOf("__") === -1&#13;
+						&amp;&amp; attributeName.toString().indexOf(config.attributePrefix) === 0) {&#13;
+						names.push(attributeName);&#13;
+					}&#13;
+				}&#13;
+			}&#13;
+&#13;
+			return names;&#13;
+		}&#13;
+&#13;
+		function serializeComplexTextNodeContents(textNode) {&#13;
+			var result = "";&#13;
+&#13;
+			if (textNode.__cdata) {&#13;
+				result += "&lt;![CDATA[" + textNode.__cdata + "]]&gt;";&#13;
+			}&#13;
+&#13;
+			if (textNode.__text) {&#13;
+				if (config.escapeMode)&#13;
+					result += escapeXmlChars(textNode.__text);&#13;
+				else&#13;
+					result += textNode.__text;&#13;
+			}&#13;
+&#13;
+			return result;&#13;
+		}&#13;
+&#13;
+		function serializeTextNodeContents(textNode) {&#13;
+			var result = "";&#13;
+&#13;
+			if (textNode instanceof Object) {&#13;
+				result += serializeComplexTextNodeContents(textNode);&#13;
+			} else if (textNode !== null) {&#13;
+				if (config.escapeMode)&#13;
+					result += escapeXmlChars(textNode);&#13;
+				else&#13;
+					result += textNode;&#13;
+			}&#13;
+&#13;
+			return result;&#13;
+		}&#13;
+&#13;
+		function serializeArray(elementArray, elementName, attributes) {&#13;
+			var result = "";&#13;
+&#13;
+			if (elementArray.length === 0) {&#13;
+				result += serializeStartTag(elementArray, elementName, attributes, true);&#13;
+			} else {&#13;
+				for (var i = 0; i &lt; elementArray.length; i++) {&#13;
+					result += serializeJavaScriptObject(elementArray[i], elementName, getDataAttributeNames(elementArray[i]));&#13;
+				}&#13;
+			}&#13;
+&#13;
+			return result;&#13;
+		}&#13;
+&#13;
+		function serializeJavaScriptObject(element, elementName, attributes) {&#13;
+			var result = "";&#13;
+&#13;
+			if ((element === undefined || element === null || element === '') &amp;&amp; config.selfClosingElements) {&#13;
+				result += serializeStartTag(element, elementName, attributes, true);&#13;
+			} else if (typeof element === 'object') {&#13;
+				if (Object.prototype.toString.call(element) === '[object Array]') {&#13;
+					result += serializeArray(element, elementName, attributes);&#13;
+				} else if (element instanceof Date) {&#13;
+					result += serializeStartTag(element, elementName, attributes, false);&#13;
+					result += element.toISOString();&#13;
+					result += serializeEndTag(element, elementName);&#13;
+				} else {&#13;
+					var childElementCount = getDataElementCount(element);&#13;
+					if (childElementCount &gt; 0 || element.__text || element.__cdata) {&#13;
+						result += serializeStartTag(element, elementName, attributes, false);&#13;
+						result += serializeJavaScriptObjectChildren(element);&#13;
+						result += serializeEndTag(element, elementName);&#13;
+					} else if (config.selfClosingElements) {&#13;
+						result += serializeStartTag(element, elementName, attributes, true);&#13;
+					} else {&#13;
+						result += serializeStartTag(element, elementName, attributes, false);&#13;
+						result += serializeEndTag(element, elementName);&#13;
+					}&#13;
+				}&#13;
+			} else {&#13;
+				result += serializeStartTag(element, elementName, attributes, false);&#13;
+				result += serializeTextNodeContents(element);&#13;
+				result += serializeEndTag(element, elementName);&#13;
+			}&#13;
+&#13;
+			return result;&#13;
+		}&#13;
+&#13;
+		function serializeJavaScriptObjectChildren(jsObject) {&#13;
+			var result = "";&#13;
+&#13;
+			var elementCount = getDataElementCount(jsObject);&#13;
+&#13;
+			if (elementCount &gt; 0) {&#13;
+				for (var elementName in jsObject) {&#13;
+					if (isSpecialProperty(jsObject, elementName))&#13;
+						continue;&#13;
+&#13;
+					var element = jsObject[elementName];&#13;
+					var attributes = getDataAttributeNames(element);&#13;
+&#13;
+					result += serializeJavaScriptObject(element, elementName, attributes);&#13;
+				}&#13;
+			}&#13;
+&#13;
+			result += serializeTextNodeContents(jsObject);&#13;
+&#13;
+			return result;&#13;
+		}&#13;
+&#13;
+		function parseXml(xml) {&#13;
+			if (xml === undefined) {&#13;
+				return null;&#13;
+			}&#13;
+&#13;
+			if (typeof xml !== "string") {&#13;
+				return null;&#13;
+			}&#13;
+&#13;
+			var parser = null;&#13;
+			var domNode = null;&#13;
+&#13;
+			if (CustomDOMParser) {&#13;
+				// This branch is used for node.js, with the xmldom parser.&#13;
+				parser = new CustomDOMParser();&#13;
+&#13;
+				domNode = parser.parseFromString(xml, "text/xml");&#13;
+			} else if (window &amp;&amp; window.DOMParser) {&#13;
+				parser = new window.DOMParser();&#13;
+				var parsererrorNS = null;&#13;
+&#13;
+				var isIEParser = window.ActiveXObject || "ActiveXObject" in window;&#13;
+&#13;
+				// IE9+ now is here&#13;
+				if (!isIEParser) {&#13;
+					try {&#13;
+						parsererrorNS = parser.parseFromString("INVALID", "text/xml").childNodes[0].namespaceURI;&#13;
+					} catch (err) {&#13;
+						parsererrorNS = null;&#13;
+					}&#13;
+				}&#13;
+&#13;
+				try {&#13;
+					domNode = parser.parseFromString(xml, "text/xml");&#13;
+					if (parsererrorNS !== null &amp;&amp; domNode.getElementsByTagNameNS(parsererrorNS, "parsererror").length &gt; 0) {&#13;
+						domNode = null;&#13;
+					}&#13;
+				} catch (err) {&#13;
+					domNode = null;&#13;
+				}&#13;
+			} else {&#13;
+				// IE :(&#13;
+				if (xml.indexOf("&lt;?") === 0) {&#13;
+					xml = xml.substr(xml.indexOf("?&gt;") + 2);&#13;
+				}&#13;
+&#13;
+				/* global ActiveXObject */&#13;
+				domNode = new ActiveXObject("Microsoft.XMLDOM");&#13;
+				domNode.async = "false";&#13;
+				domNode.loadXML(xml);&#13;
+			}&#13;
+&#13;
+			return domNode;&#13;
+		}&#13;
+&#13;
+		this.asArray = function asArray(prop) {&#13;
+			if (prop === undefined || prop === null) {&#13;
+				return [];&#13;
+			} else if (prop instanceof Array) {&#13;
+				return prop;&#13;
+			} else {&#13;
+				return [prop];&#13;
+			}&#13;
+		};&#13;
+&#13;
+		this.toXmlDateTime = function toXmlDateTime(dt) {&#13;
+			if (dt instanceof Date) {&#13;
+				return dt.toISOString();&#13;
+			} else if (typeof (dt) === 'number') {&#13;
+				return new Date(dt).toISOString();&#13;
+			} else {&#13;
+				return null;&#13;
+			}&#13;
+		};&#13;
+&#13;
+		this.asDateTime = function asDateTime(prop) {&#13;
+			if (typeof (prop) === "string") {&#13;
+				return xmlDateTimeToDate(prop);&#13;
+			} else {&#13;
+				return prop;&#13;
+			}&#13;
+		};&#13;
+&#13;
+		/*&#13;
+			Internally the logic works in a cycle:&#13;
+			DOM-&gt;JS - implemented by custom logic (deserialization).&#13;
+			JS-&gt;XML - implemented by custom logic (serialization).&#13;
+			XML-&gt;DOM - implemented by browser.&#13;
+		*/&#13;
+&#13;
+		// Transformns an XML string into DOM-tree&#13;
+		this.xml2dom = function xml2dom(xml) {&#13;
+			return parseXml(xml);&#13;
+		};&#13;
+&#13;
+		// Transforms a DOM tree to JavaScript objects.&#13;
+		this.dom2js = function dom2js(domNode) {&#13;
+			return deserializeDomChildren(domNode, null);&#13;
+		};&#13;
+&#13;
+		// Transforms JavaScript objects to a DOM tree.&#13;
+		this.js2dom = function js2dom(jsObject) {&#13;
+			var xml = this.js2xml(jsObject);&#13;
+			return parseXml(xml);&#13;
+		};&#13;
+&#13;
+		// Transformns an XML string into JavaScript objects.&#13;
+		this.xml2js = function xml2js(xml) {&#13;
+			var domNode = parseXml(xml);&#13;
+			if (domNode != null)&#13;
+				return this.dom2js(domNode);&#13;
+			else&#13;
+				return null;&#13;
+		};&#13;
+&#13;
+		// Transforms JavaScript objects into an XML string.&#13;
+		this.js2xml = function js2xml(jsObject) {&#13;
+			return serializeJavaScriptObjectChildren(jsObject);&#13;
+		};&#13;
+&#13;
+		this.getVersion = function getVersion() {&#13;
+			return VERSION;&#13;
+		};&#13;
+	};&#13;
+});&#13;
+&#13;
+&#13;
+var xtojs = new X2JS();&#13;
+          &#13;
+var jsonObj = null;&#13;
+/*&#13;
+*This script can run in instance and in mid - because the strategy is happend also in&#13;
+*the instance when perform highlight. there is need to perform different JSON parsing&#13;
+*because the JSON.parse in instance side is not work as it works in mid side.&#13;
+*&#13;
+*/&#13;
+content = decodeURIComponent(content);&#13;
+	&#13;
+if (name_server == 'instance') {&#13;
+	content = content.replace(":NEEBULA_SELECTION_STRING", ":\"NEEBULA_SELECTION_STRING");&#13;
+	content = content.replace("NEEBULA_SELECTION_STRING}", "NEEBULA_SELECTION_STRING\"}");&#13;
+	content = content.replace("NEEBULA_SELECTION_STRING,", "NEEBULA_SELECTION_STRING\",");&#13;
+	var parser = new JSONParser();&#13;
+	jsonObj =  parser.parse(content);&#13;
+}&#13;
+else {&#13;
+	jsonObj = JSON.parse(content);&#13;
+}&#13;
+var result = xtojs.js2xml(jsonObj);&#13;
+var finalResult = "&lt;root&gt;" + result + "&lt;/root&gt;";&#13;
+rtrn = finalResult;</script><sys_class_name>sa_custom_parsing_strategy</sys_class_name><sys_created_by>yair.leibkowiz</sys_created_by><sys_created_on>2016-06-06 08:17:09</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>512a3d5a9f3312003cb191aec32e708a</sys_id><sys_mod_count>52</sys_mod_count><sys_name>JSON File</sys_name><sys_overrides/><sys_package display_value="Pattern Designer" source="com.snc.pattern.designer">090998621b223300945b844fdd4bcbaa</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sa_custom_parsing_strategy_512a3d5a9f3312003cb191aec32e708a</sys_update_name><sys_updated_by>yair.leibkowiz</sys_updated_by><sys_updated_on>2017-02-13 13:34:06</sys_updated_on></sa_custom_parsing_strategy></record_update>]]></payload>
+<payload_hash>1330127304</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>e33b20dd1b7328988049eb1cad4bcbb8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138ca00e0000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>JSON File</target_name>
+<type>Custom Parsing Strategies</type>
+<u_link>[code]&lt;a title="JSON File" class="linked" href="sa_custom_parsing_strategy.do?sys_id=512a3d5a9f3312003cb191aec32e708a"&gt;JSON File&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>af3b20dd7e732898124423b9a296699e</update_guid>
+<update_guid_history>af3b20dd7e732898124423b9a296699e:1330127304,614aca22c58aac989ba64bb7b24421b8:1330127304</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_custom_operation_param_659ebcfd1bf9ac90c50f635bbc4bcb63</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_custom_operation_param"><sa_custom_operation_param action="INSERT_OR_UPDATE"><default_value/><label>Required Authentication</label><mandatory>false</mandatory><name>required_authentication</name><operation display_value="Infinidat Get Call">088e7cfd1bf9ac90c50f635bbc4bcb5a</operation><order>100</order><sys_class_name>sa_custom_operation_param</sys_class_name><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-19 18:21:45</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>659ebcfd1bf9ac90c50f635bbc4bcb63</sys_id><sys_mod_count>0</sys_mod_count><sys_name>required_authentication</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sa_custom_operation_param_659ebcfd1bf9ac90c50f635bbc4bcb63</sys_update_name><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-19 18:21:45</sys_updated_on><validation_regex/></sa_custom_operation_param></record_update>]]></payload>
+<payload_hash>697059918</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>e73b20dd1b7328988049eb1cad4bcbb7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9f540000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>required_authentication</target_name>
+<type>Custom Operation Parameters</type>
+<u_link>[code]&lt;a title="required_authentication" class="linked" href="sa_custom_operation_param.do?sys_id=659ebcfd1bf9ac90c50f635bbc4bcb63"&gt;required_authentication&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>a73b20dd437328980ad370669a338b98</update_guid>
+<update_guid_history>a73b20dd437328980ad370669a338b98:697059918,e94aca22c88aac9866f1d14184e685a2:697059918,cf70c9fd173dac902c959437b8543503:-582040407</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sa_ci_to_pattern_1b5077b71b29a0108049eb1cad4bcb74</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_ci_to_pattern"><sa_ci_to_pattern action="INSERT_OR_UPDATE"><ci_type>cmdb_ci_storage_volume</ci_type><deletion_strategy>1</deletion_strategy><is_main_ci>false</is_main_ci><pattern display_value="Infinidat">f7ae1b741b49a4508049eb1cad4bcb3a</pattern><strategy_script/><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-14 02:02:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1b5077b71b29a0108049eb1cad4bcb74</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-14 02:02:20</sys_updated_on></sa_ci_to_pattern></record_update>]]></payload>
+<payload_hash>-539371358</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>eb3b20dd1b7328988049eb1cad4bcbb4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9dec0000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>1b5077b71b29a0108049eb1cad4bcb74</target_name>
+<type>Related CI Types</type>
+<u_link>[code]&lt;a title="1b5077b71b29a0108049eb1cad4bcb74" class="linked" href="sa_ci_to_pattern.do?sys_id=1b5077b71b29a0108049eb1cad4bcb74"&gt;1b5077b71b29a0108049eb1cad4bcb74&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>1b3b20dda47328989a634034ab0f557f</update_guid>
+<update_guid_history>1b3b20dda47328989a634034ab0f557f:-539371358,a94aca22138aac987bdbd8612257df83:-539371358,1b5077b7fc29a0105d6b0322a0840775:-977520473</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sa_custom_operation_088e7cfd1bf9ac90c50f635bbc4bcb5a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sa_custom_operation"&gt;&lt;sa_custom_operation action="INSERT_OR_UPDATE"&gt;&lt;description&gt;perform HTTP get call with pagination&lt;/description&gt;&lt;is_pagination_capable&gt;false&lt;/is_pagination_capable&gt;&lt;name&gt;Infinidat Get Call&lt;/name&gt;&lt;script&gt;&lt;![CDATA[//Java class loading
+this.httpCall = Packages.com.snc.sw.commands.HttpCallHandler;
+var URI = Packages.java.net.URI;
+var uriException = Packages.java.net.URISyntaxException;
+var httpClient = new httpCall();
+
+//context loading
+var ciType = CTX.getAttribute('pattern_cit_id');
+var url = CTX.getAttribute('url');
+var response = httpClient.invoke(CTX,$url, 'GET',null,null,ciType,$headers,$required_authentication);
+var namespace = CTX.getAttribute('namespace');
+var credsAlias = CTX.getAttribute('credentialsAlias');
+var namespaces = new Packages.java.util.ArrayList();
+var row = Packages.java.util.LinkedHashMap;
+
+try{
+	var URL = new URI(url);
+	
+}catch(err){
+	ms.log("Not a valid URL. E.g. https://host:port. Current is " + url);
+	throw new uriException(err.getMessage(), "Not a valid URL. E.g. https://host:port");
+	
+}
+
+var nextToken;                                 //                                   Support Pagination
+var ArrayList = Packages.java.util.ArrayList;  //                                   Support Pagination
+var result = new ArrayList();                  //                                   Support Pagination 
+
+var page = response.match(/page\"\:\s*(\d+)/);  
+var page_total = response.match(/pages_total\"\:\s*(\d+)/);  
+
+result.add(response);
+
+if (page_total &amp;&amp; parseInt(page_total[1]) &gt;1){
+	var maxPages = (parseInt(page_total[1]) + 1);
+	for (var i = 2; i &lt; maxPages ; i++){
+		var pagedUrlCf = url + "&amp;page=" + i;
+		response = httpClient.invoke(CTX, pagedUrlCf, 'GET',null,null,ciType,$headers,$required_authentication);
+		result.add(response);
+	}
+}
+
+
+CTX.setAttribute('response', result);
+
+//rtrn = result;]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sa_custom_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sn.jeffmu_rapdev.local&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-19 18:13:05&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;088e7cfd1bf9ac90c50f635bbc4bcb5a&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;Infinidat Get Call&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sa_custom_operation_088e7cfd1bf9ac90c50f635bbc4bcb5a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sn.jeffmu_rapdev.local&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-17 19:11:34&lt;/sys_updated_on&gt;&lt;/sa_custom_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1793715255</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>eb3b20dd1b7328988049eb1cad4bcbb6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9f160000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>Infinidat Get Call</target_name>
+<type>Custom Operations</type>
+<u_link>[code]&lt;a title="Infinidat Get Call" class="linked" href="sa_custom_operation.do?sys_id=088e7cfd1bf9ac90c50f635bbc4bcb5a"&gt;Infinidat Get Call&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>633b20dd8d73289836bfb526b2bed496</update_guid>
+<update_guid_history>633b20dd8d73289836bfb526b2bed496:-1793715255,6bf1264b36562890a2a1b97534052ce3:-1793715255,1df1ee0b03562890e4f13923a251d822:389771239,aa70513d4bb1ec90f5c9a67159d33de6:-1793715255,2aaf4db555b1ec90e3f1d26db8a96ece:1188535209,b77fcd7593b1ec90c1470021a8e14fc1:945189791,d06f0575ceb1ec9029e07c6c3a989adb:1853196364,713f8535b1b1ec90b55a31045cd24101:907513642,e5fe8db1ffb1ec902222dce1850e5b95:-799025376,c2ce4d71acb1ec905fef970cfb21f045:345857555,b08e053152b1ec904347177d362769c3:309414433,fb2ec5bd4171ec908ac4ba0cfc3fe037:-1849060608,8747c93909fdac90726ee13545bd31b9:1337683462,6827c9f54dfdac906fb5a571c1b4b92f:-1029730559,0507cdb561fdac903774af98ce454ba3:-1334696050,547645f15afdac904c31235f92090a93:678527903,988485b540bdac9055e07aa06d8c34d7:1882846011,5464897531bdac90d9b8d5e1837647a4:1538178724,98f385f1b8bdac9086e0b20cca844052:-13003653,a5d30db185bdac909172fd098a075998:-2070484700,6e83817182bdac90370503cfbbfe8b87:-13003653,358289f9687dac90b250682f73098ad0:-642196917,116209b92f7dac90618507272db57790:300843499,02804131c87dac906db57ffc45d0bf4c:-893745949,8c9e7831503dac90e0a8aa430c6dbbf9:358962858,d08e7031b23dac90541b02406c4273a0:-1155141758</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value=""/>
+<category>customer</category>
+<comments/>
+<name>sa_ci_to_pattern_ce81777f1b29a0108049eb1cad4bcb27</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sa_ci_to_pattern"><sa_ci_to_pattern action="INSERT_OR_UPDATE"><ci_type>cmdb_ci_network_adapter</ci_type><deletion_strategy>1</deletion_strategy><is_main_ci>false</is_main_ci><pattern display_value="Infinidat">f7ae1b741b49a4508049eb1cad4bcb3a</pattern><strategy_script/><sys_created_by>sn.jeffmu_rapdev.local</sys_created_by><sys_created_on>2021-01-14 02:07:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ce81777f1b29a0108049eb1cad4bcb27</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by><sys_updated_on>2021-01-14 02:07:26</sys_updated_on></sa_ci_to_pattern></record_update>]]></payload>
+<payload_hash>-1487894986</payload_hash>
+<remote_update_set display_value="PatternExport 2021-04-27 13:37:32">e73b20dd1b7328988049eb1cad4bcbb4</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sn.jeffmu_rapdev.local</sys_created_by>
+<sys_created_on>2021-04-27 13:37:34</sys_created_on>
+<sys_id>ef3b20dd1b7328988049eb1cad4bcbb5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>179138c9e530000001</sys_recorded_at>
+<sys_update_xml_ace_on_upgrade/>
+<sys_update_xml_action/>
+<sys_update_xml_application/>
+<sys_update_xml_category/>
+<sys_update_xml_comments/>
+<sys_update_xml_e_guid_history/>
+<sys_update_xml_name/>
+<sys_update_xml_ote_update_set/>
+<sys_update_xml_payload/>
+<sys_update_xml_payload_hash/>
+<sys_update_xml_sys_created_by/>
+<sys_update_xml_sys_created_on/>
+<sys_update_xml_sys_id/>
+<sys_update_xml_sys_mod_count/>
+<sys_update_xml_sys_recorded_at/>
+<sys_update_xml_sys_updated_by/>
+<sys_update_xml_sys_updated_on/>
+<sys_update_xml_table/>
+<sys_update_xml_target_name/>
+<sys_update_xml_type/>
+<sys_update_xml_u_link/>
+<sys_update_xml_update_domain/>
+<sys_update_xml_update_guid/>
+<sys_update_xml_update_set/>
+<sys_update_xml_view/>
+<sys_updated_by>sn.jeffmu_rapdev.local</sys_updated_by>
+<sys_updated_on>2021-04-27 13:37:34</sys_updated_on>
+<table/>
+<target_name>ce81777f1b29a0108049eb1cad4bcb27</target_name>
+<type>Related CI Types</type>
+<u_link>[code]&lt;a title="ce81777f1b29a0108049eb1cad4bcb27" class="linked" href="sa_ci_to_pattern.do?sys_id=ce81777f1b29a0108049eb1cad4bcb27"&gt;ce81777f1b29a0108049eb1cad4bcb27&lt;/a&gt;[/code]</u_link>
+<update_domain>global</update_domain>
+<update_guid>d33b20dd6c732898538c8cc112b0e284</update_guid>
+<update_guid_history>d33b20dd6c732898538c8cc112b0e284:-1487894986,a14aca22558aac9808cf04830eb46198:-1487894986,4e81777f0f29a010c82ddb1969eba328:-1396120773</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
