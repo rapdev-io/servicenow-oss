@@ -10,11 +10,11 @@ Infinidat Get Call - Used to account for infinidat calls that require pagination
 API Calls:
 
 GET SYSTEM PHYS INFO "http://" + $host + "/api/rest/system"
-*Serial number
-*Name 
-*Firmware version
-*Product ID
-*Model ID
+* Serial number
+* Name 
+* Firmware version
+* Product ID
+* Model ID
 
 GET CLUSTER INFO "http://" + $host + "/api/rest/clusters"
 
