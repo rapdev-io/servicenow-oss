@@ -18,48 +18,48 @@ GET SYSTEM PHYS INFO "http://" + $host + "/api/rest/system"
 
 GET CLUSTER INFO "http://" + $host + "/api/rest/clusters"
 
-*Name
-*ID
-*Volume ID
-*Host Name
-*Host ID
-*Host Cluster
+* Name
+* ID
+* Volume ID
+* Host Name
+* Host ID
+* Host Cluster
 	
 GET LNN INTERFACES "http://" + $host + "/api/rest/network/interfaces"
 
-*LNN ID
-*Name
-*Node ID
-*Operational Status
-*Interface Type
+* LNN ID
+* Name
+* Node ID
+* Operational Status
+* Interface Type
 
 GET NETWORK POOLS "http://" + $host + "/api/rest/pools"
 
-*Pool Name
-*Pool ID
-*Size
-*Free Space
+* Pool Name
+* Pool ID
+* Size
+* Free Space
 
 GET STORAGE VOLUMES "http://" + $host + "/api/rest/volumes?page_size=100"
 
-*Name
-*ID
-*Type
-*Total Bytes
-*Pool ID
+* Name
+* ID
+* Type
+* Total Bytes
+* Pool ID
 
 GET ENCLOSURE DRIVES "http://" + $host + "/api/rest/components"
 
-*Model
-*Vendor
-*Serial Number
-*Size
+* Model
+* Vendor
+* Serial Number
+* Size
 
 GET FC PORTS "http://" + $host + "/api/rest/components"
 
-WWNN
-WWPN
-Speed
+* WWNN
+* WWPN
+* Speed
 
 
 <h3>Discovery Classification</h3>
