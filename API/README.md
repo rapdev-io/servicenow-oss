@@ -1,4 +1,4 @@
-# Scripted REST APIs
-Find helpful REST endpoints here
-- aws_endpoint.js: Create Discovery schedule for AWS cloud DC
-- YAML to JSON Coversion application
+# APIs
+Endpoints and other helpful functions
+- AWS Scripted REST Endpoint: Register an AWS service account and create Discovery schedule for AWS cloud DC
+- YAML to JSON Coversion: Scoped application providing an easy-to-call processor which converts YAML-formatted data into JSON objects
