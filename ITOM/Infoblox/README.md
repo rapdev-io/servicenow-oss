@@ -7,9 +7,9 @@ After installing the application, navigate to Infoblox Integration -> Properties
 
 * Query to limit results: Can set query to limit ranges retrieved from Infoblox
 
-* Extensible attribute in Infoblox to group subnets by: Choose an attribute that will group retrived subnets within a Discovery schedule
+* Extensible attribute in Infoblox to group subnets by: Choose an attribute that will group retrived subnets within a Discovery schedule. This attribute must be specified in Infoblox.
 
-* Create an "Unknown Locations" Discovery Range Set and Discovery Schedule: If a location attribute is specified above, this option will create a new range set for subnets that do not have this attribute
+* Create an "Unknown Locations" Discovery Range Set and Discovery Schedule: This option will create a new range set for subnets that do not have the attribute specified above
 
 * Use MID Server: Determines whether to use a MID server to communicate with Infoblox
 
