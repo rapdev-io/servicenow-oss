@@ -9,12 +9,12 @@ After installing the application, navigate to Infoblox Integration -> Properties
 
 * Extensible attribute in Infoblox to group subnets by: Choose an attribute that will group retrived subnets within a Discovery schedule
 
-* Create an "Unknown Locations" Discovery Range Set and Discovery Schedule...: If a location attribute is specified above, this option will create a new range set for subnets that do not have this attribute
+* Create an "Unknown Locations" Discovery Range Set and Discovery Schedule: If a location attribute is specified above, this option will create a new range set for subnets that do not have this attribute
 
 * Use MID Server: Determines whether to use a MID server to communicate with Infoblox
 
-* Create Discovery Schedules for new Discovery Range Sets based on the location attribute.: Determines whether discovery schedules will be created for discovered range sets based on the location attribute specified above
+* Create Discovery Schedules for new Discovery Range Sets based on the location attribute: Determines whether discovery schedules will be created for discovered range sets based on the location attribute specified above
 
-* ServiceNow field on the Location (cmn_location) table to which the x_radi_infoblox.location_attribute value will be matched against...: Chooses a field on cmn_location that will be used to match the value of the location attribute in Infoblox
+* ServiceNow field on the Location (cmn_location) table to which the x_radi_infoblox.location_attribute value will be matched against: Chooses a field on cmn_location that will be used to match the value of the location attribute in Infoblox
 
 
