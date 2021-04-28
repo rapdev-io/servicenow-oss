@@ -68,6 +68,6 @@ Infinidat (HTTP Classification) created so Discovery can access the pattern
 <h3>Troubleshooting</h3>
 
 * 401 Check if the credentials are correct
-* * 403 Check if the credentials have enough permissions to access above API calls
+* 403 Check if the credentials have enough permissions to access above API calls
 	
 
