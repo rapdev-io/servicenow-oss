@@ -3,7 +3,7 @@
 ## Setup:
 After installing the application, you must set up your GitHub organization and credentials:
 - Value of system property "x_radi_github.Github Organization" must be set to the name of your GitHub organization
-- Credential associated with sys_alias record must be set to a GitHub service account
+- Credential associated with sys_alias record "x_radi_github.Github" must be set to a GitHub service account
 - Under the outbound REST Message "Github", Variable Substitutions for HTTP Methods "Get Users" and "Get Member" should be set to valid values for your organization
 
 ## How to use:
