@@ -23,8 +23,6 @@ var content = bodyParsed.content.toString();
 //var decoded = gs.base64Decode(content); //call from scoped app
 var decodedString = JSON.stringify(decoded);
 decodedString = decodedString.substring(1, decodedString.length-1);
-decodedString = decodedString.replace(/\\r/g, '');
-decodedString = decodedString.replace(/\\n/g, '\n');
 var obj = new x_radi_yaml_json.Yaml().parse(decodedString);
 ```
 
