@@ -5,7 +5,7 @@ The base application is the ***YAML JSON Conversion*** update set.
 ## How to use:
 ```
 var myObject = new x_radi_yaml_json.Yaml().parse('some: yaml'); //input must be a string containing YAML; returns a JSON object
-gs.info(myObject);
+gs.info(JSON.stringify(myObject));
 ```
 
 ### Example REST call to get a YAML file stored in GitHub
