@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_266114_rap_cache.RapCacheAJAX</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>RapCacheAJAX</name>
+        <script><![CDATA[var RapCacheAJAX = Class.create();
+RapCacheAJAX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	initialize: function() {
+		this.id = '';
+		this.cache = '';
+		/* polling properties */
+		this.MAX_RETRIES = 3;
+		this.POLLING_SLEEP = 2000; /* 2 seconds */
+    },
+	
+	init: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.initialize();
+		this.id = cache.insert();
+		return this.set(this.id);
+	},
+	
+	set: function(id){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(id);
+		this.cache = cache;
+		this.id = this.cache.sys_id.toString();
+		return this.cache;
+	},
+	
+	clear: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = '';
+		cache.deleteRecord();
+	},
+	
+	edit: function(key, value){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		this.cache.pairs[key] = value;
+		this.cache.update();
+		return this.cache;
+	},
+	
+	get: function(key){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs[key];
+	},
+	
+	getAll: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs;
+	},
+	
+	poll: function(key){
+		iterations = 0;
+		while (iterations <= this.MAX_RETRIES){
+			iterations++;
+			var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+			cache.get(this.id);
+			this.cache = cache;
+			if (this.cache.pairs[key]){
+				return this.cache.pairs[key];
+			}
+			gs.sleep(this.POLLING_SLEEP);
+		}
+		return ''; /* Return empty string if value is not found */
+	},
+    type: 'RapCacheAJAX'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 04:52:55</sys_created_on>
+        <sys_id>0b3da52a2f7c0110a972a55df699b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RapCacheAJAX</sys_name>
+        <sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope>
+        <sys_update_name>sys_script_include_0b3da52a2f7c0110a972a55df699b6f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 04:52:55</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+        <file_path/>
+        <instance_id>9c7d57b9dbfe001042b321c40596190e</instance_id>
+        <instance_name>dev99673</instance_name>
+        <name>sys_script_include_0b3da52a2f7c0110a972a55df699b6f5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_266114_rap_cache.RapCacheAJAX&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;RapCacheAJAX&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var RapCacheAJAX = Class.create();
+RapCacheAJAX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	initialize: function() {
+		this.id = '';
+		this.cache = '';
+		/* polling properties */
+		this.MAX_RETRIES = 3;
+		this.POLLING_SLEEP = 2000; /* 2 seconds */
+    },
+	
+	init: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.initialize();
+		this.id = cache.insert();
+		return this.set(this.id);
+	},
+	
+	set: function(id){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(id);
+		this.cache = cache;
+		this.id = this.cache.sys_id.toString();
+		return this.cache;
+	},
+	
+	clear: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = '';
+		cache.deleteRecord();
+	},
+	
+	edit: function(key, value){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		this.cache.pairs[key] = value;
+		this.cache.update();
+		return this.cache;
+	},
+	
+	get: function(key){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs[key];
+	},
+	
+	getAll: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs;
+	},
+	
+	poll: function(key){
+		iterations = 0;
+		while (iterations &lt;= this.MAX_RETRIES){
+			iterations++;
+			var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+			cache.get(this.id);
+			this.cache = cache;
+			if (this.cache.pairs[key]){
+				return this.cache.pairs[key];
+			}
+			gs.sleep(this.POLLING_SLEEP);
+		}
+		return ''; /* Return empty string if value is not found */
+	},
+    type: 'RapCacheAJAX'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 04:52:55&lt;/sys_created_on&gt;&lt;sys_id&gt;0b3da52a2f7c0110a972a55df699b6f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;RapCacheAJAX&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_0b3da52a2f7c0110a972a55df699b6f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 04:52:55&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1331479602</payload_hash>
+        <record_name>RapCacheAJAX</record_name>
+        <reverted_from/>
+        <source>ad91996a2fb80110a972a55df699b6d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 04:52:55</sys_created_on>
+        <sys_id>d96da92e2f3c0110a972a55df699b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e28953c330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 04:52:55</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>d16da92e623c011069b2b6b93a73edbe</update_guid>
+        <update_guid_history>d16da92e623c011069b2b6b93a73edbe:1331479602</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 05:14:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>13812948c7c644c09dafb8b0aa79cc09</sys_id>
+        <sys_metadata>0b3da52a2f7c0110a972a55df699b6f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RapCacheAJAX</sys_name>
+        <sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope>
+        <sys_scope_delete display_value="">405dd4d765234cf49e1f2019a3edcb90</sys_scope_delete>
+        <sys_update_name>sys_script_include_0b3da52a2f7c0110a972a55df699b6f5</sys_update_name>
+        <sys_update_version display_value="sys_script_include_0b3da52a2f7c0110a972a55df699b6f5">d96da92e2f3c0110a972a55df699b6be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 05:14:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

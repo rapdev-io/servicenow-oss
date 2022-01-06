@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-01-05 06:12:49">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<application_name>RapCache</application_name>
+<application_scope>x_266114_rap_cache</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Dev friendly caching</description>
+<inserted/>
+<name>RapCache</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>479f31e62ffc0110a972a55df699b61c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>efafb9e22ffc0110a972a55df699b6e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_266114_rap_cache_rapcache_pairs</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="pairs" table="x_266114_rap_cache_rapcache"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Pairs&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;pairs&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;simple_name_values&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;100000&lt;/max_length&gt;&lt;name&gt;x_266114_rap_cache_rapcache&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 02:55:41&lt;/sys_created_on&gt;&lt;sys_id&gt;557211ae2fb80110a972a55df699b68f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Pairs&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_266114_rap_cache_rapcache_pairs&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 02:55:41&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2123934612</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>23aff1e62ffc0110a972a55df699b685</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de216d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache.Pairs</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_18f1516e2fb80110a972a55df699b616</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_266114_rap_cache_rapcache</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:59</sys_created_on><sys_id>18f1516e2fb80110a972a55df699b616</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_security_acl_18f1516e2fb80110a972a55df699b616</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1003077090</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>23aff1e62ffc0110a972a55df699b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20ce0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>x_266114_rap_cache_rapcache</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_686391ee2fb80110a972a55df699b6e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value/><name>key</name><required>true</required><short_description/><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:59:28</sys_created_on><sys_id>686391ee2fb80110a972a55df699b6e4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>key</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ws_query_parameter_686391ee2fb80110a972a55df699b6e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:04:47</sys_updated_on><web_service_definition display_value="RapCache API">15331dae2fb80110a972a55df699b650</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+<payload_hash>95344648</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>23aff1e62ffc0110a972a55df699b68b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>key</target_name>
+<type>Scripted REST Query Parameter</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_6be1116e2fb80110a972a55df699b6b5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>RapCache</label><live_feed_enabled>false</live_feed_enabled><name>x_266114_rap_cache_rapcache</name><number_ref display_value="RC">6fe1116e2fb80110a972a55df699b6d1</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:56</sys_created_on><sys_id>6be1116e2fb80110a972a55df699b6b5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>RapCache</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_db_object_6be1116e2fb80110a972a55df699b6b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:56</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1417287731</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>27aff1e62ffc0110a972a55df699b684</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de1ff90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_0b3da52a2f7c0110a972a55df699b6f5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="DELETE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_266114_rap_cache.RapCacheAJAX&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;RapCacheAJAX&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var RapCacheAJAX = Class.create();
+RapCacheAJAX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	initialize: function() {
+		this.id = '';
+		this.cache = '';
+		/* polling properties */
+		this.MAX_RETRIES = 3;
+		this.POLLING_SLEEP = 2000; /* 2 seconds */
+    },
+	
+	init: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.initialize();
+		this.id = cache.insert();
+		return this.set(this.id);
+	},
+	
+	set: function(id){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(id);
+		this.cache = cache;
+		this.id = this.cache.sys_id.toString();
+		return this.cache;
+	},
+	
+	clear: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = '';
+		cache.deleteRecord();
+	},
+	
+	edit: function(key, value){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		this.cache.pairs[key] = value;
+		this.cache.update();
+		return this.cache;
+	},
+	
+	get: function(key){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs[key];
+	},
+	
+	getAll: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs;
+	},
+	
+	poll: function(key){
+		iterations = 0;
+		while (iterations &lt;= this.MAX_RETRIES){
+			iterations++;
+			var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+			cache.get(this.id);
+			this.cache = cache;
+			if (this.cache.pairs[key]){
+				return this.cache.pairs[key];
+			}
+			gs.sleep(this.POLLING_SLEEP);
+		}
+		return ''; /* Return empty string if value is not found */
+	},
+    type: 'RapCacheAJAX'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 04:52:55&lt;/sys_created_on&gt;&lt;sys_id&gt;0b3da52a2f7c0110a972a55df699b6f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;RapCacheAJAX&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_0b3da52a2f7c0110a972a55df699b6f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 04:52:55&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>100616870</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>27aff1e62ffc0110a972a55df699b687</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de233f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>RapCacheAJAX</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_53731dee2fb80110a972a55df699b6fe</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;clear&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	var cu = new RapCache();
+	var cache = cu.set(request.queryParams["id"][0].toString());
+	cu.clear();
+	var result = {};
+	result.message = 'cache deleted';
+	response.setBody(result);
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/x_266114_rap_cache/v1/clear&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/clear&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 03:00:08&lt;/sys_created_on&gt;&lt;sys_id&gt;53731dee2fb80110a972a55df699b6fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;clear&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_53731dee2fb80110a972a55df699b6fe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 03:51:28&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="RapCache API"&gt;15331dae2fb80110a972a55df699b650&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1200265930</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>27aff1e62ffc0110a972a55df699b68a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22c50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>clear</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_3c02d16e2fb80110a972a55df699b615</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="">Custom Applications</category><description>Dev friendly caching</description><device_type>browser</device_type><hint>Dev friendly caching</hint><name/><order/><roles>admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:53:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3c02d16e2fb80110a972a55df699b615</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RapCache</sys_name><sys_overrides/><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_app_application_3c02d16e2fb80110a972a55df699b615</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:53:17</sys_updated_on><title>RapCache</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>292703020</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>2baff1e62ffc0110a972a55df699b683</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>RapCache</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_84e029e22f3c0110a972a55df699b667</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:58:14</sys_created_on><sys_id>84e029e22f3c0110a972a55df699b667</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.deleteRecord</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_scope_privilege_84e029e22f3c0110a972a55df699b667</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:58:14</sys_updated_on><target_name>GlideRecord.deleteRecord</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>658791137</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>2baff1e62ffc0110a972a55df699b686</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de23210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>GlideRecord.deleteRecord</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_3d8599622ff80110a972a55df699b661</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="3d8599622ff80110a972a55df699b661" sys_domain="global" table="x_266114_rap_cache_rapcache" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:08:39</sys_created_on><sys_id>7585d1e22ff80110a972a55df699b661</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_266114_rap_cache_rapcache" sys_domain="global" view="Default view">3d8599622ff80110a972a55df699b661</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:08:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>notes</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:08:39</sys_created_on><sys_id>7d85d1e22ff80110a972a55df699b661</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_266114_rap_cache_rapcache" sys_domain="global" view="Default view">3d8599622ff80110a972a55df699b661</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:08:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>pairs</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:08:39</sys_created_on><sys_id>fd85d1e22ff80110a972a55df699b661</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_266114_rap_cache_rapcache" sys_domain="global" view="Default view">3d8599622ff80110a972a55df699b661</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:08:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_266114_rap_cache_rapcache</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:08:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3d8599622ff80110a972a55df699b661</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache</sys_name><sys_overrides/><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ui_section_3d8599622ff80110a972a55df699b661</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:08:39</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1135456088</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>2baff1e62ffc0110a972a55df699b689</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de223a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_266114_rap_cache_rapcache__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="RapCache" language="en" table="x_266114_rap_cache_rapcache"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>RapCache</label><language>en</language><name>x_266114_rap_cache_rapcache</name><plural>RapCaches</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:56</sys_created_on><sys_id>afe1116e2fb80110a972a55df699b6bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RapCache</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_documentation_x_266114_rap_cache_rapcache__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:56</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1004982128</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>2faff1e62ffc0110a972a55df699b685</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20400000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_58f1516e2fb80110a972a55df699b619</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:59</sys_created_on><sys_id>58f1516e2fb80110a972a55df699b619</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache.admin</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_security_acl display_value="x_266114_rap_cache_rapcache">18f1516e2fb80110a972a55df699b616</sys_security_acl><sys_update_name>sys_security_acl_role_58f1516e2fb80110a972a55df699b619</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:59</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>939362277</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>2faff1e62ffc0110a972a55df699b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21160000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>x_266114_rap_cache_rapcache.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_7593ddee2fb80110a972a55df699b6e3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:00:15</sys_created_on><sys_id>7593ddee2fb80110a972a55df699b6e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>345319ee2fb80110a972a55df699b633</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ws_query_parameter_map_7593ddee2fb80110a972a55df699b6e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:00:15</sys_updated_on><web_service_operation display_value="clear">53731dee2fb80110a972a55df699b6fe</web_service_operation><web_service_query_parameter display_value="id">345319ee2fb80110a972a55df699b633</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>-2137479554</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>2faff1e62ffc0110a972a55df699b68b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>345319ee2fb80110a972a55df699b633</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_fc02d16e2fb80110a972a55df699b61c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="RapCache">3c02d16e2fb80110a972a55df699b615</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_266114_rap_cache_rapcache</name><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:53:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fc02d16e2fb80110a972a55df699b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_app_module_fc02d16e2fb80110a972a55df699b61c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:53:18</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1378861123</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>63aff1e62ffc0110a972a55df699b684</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de215b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>Create New</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_fdfbd92e2ff80110a972a55df699b6f0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:36:47</sys_created_on><sys_id>fdfbd92e2ff80110a972a55df699b6f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.update</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_scope_privilege_fdfbd92e2ff80110a972a55df699b6f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:36:47</sys_updated_on><target_name>GlideRecord.update</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-2093351359</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>63aff1e62ffc0110a972a55df699b687</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22a80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>GlideRecord.update</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_4ae31dee2fb80110a972a55df699b639</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;edit&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	var cu = new RapCache();
+	var cache = cu.set(request.queryParams["id"][0].toString());
+	
+	for(var key in request.body.data) {
+		cu.edit(key,request.body.data[key]);
+	}
+	
+	var result = {};
+	result.id = request.queryParams["id"][0];
+	result.key_value_pairs = cu.getAll();
+	response.setBody(result);
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/x_266114_rap_cache/v1/edit&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/edit&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 03:02:19&lt;/sys_created_on&gt;&lt;sys_id&gt;4ae31dee2fb80110a972a55df699b639&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;edit&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_4ae31dee2fb80110a972a55df699b639&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 03:51:36&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="RapCache API"&gt;15331dae2fb80110a972a55df699b650&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1438319297</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>63aff1e62ffc0110a972a55df699b68a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>edit</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_69d6b5a62fbc0110a972a55df699b658</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 05:34:10</sys_created_on><sys_id>69d6b5a62fbc0110a972a55df699b658</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.deleteMultiple</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_scope_privilege_69d6b5a62fbc0110a972a55df699b658</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 05:34:10</sys_updated_on><target_name>GlideRecord.deleteMultiple</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-480455039</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>67aff1e62ffc0110a972a55df699b686</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de23610000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>GlideRecord.deleteMultiple</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_d6dda56a2f7c0110a972a55df699b6a1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="DELETE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_266114_rap_cache.RapCacheClient&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var RapCacheClient=Class.create();
+RapCacheClient.prototype={
+	initialize: function()
+	{
+		
+	},
+	
+	demoCallFromClientScript: function(TableName)
+	{
+		return 'hello';
+		
+	},
+	
+	
+};]]&gt;&lt;/script&gt;&lt;script_name&gt;RapCacheClient&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 04:55:52&lt;/sys_created_on&gt;&lt;sys_id&gt;d6dda56a2f7c0110a972a55df699b6a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_266114_rap_cache.RapCacheClient&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_d6dda56a2f7c0110a972a55df699b6a1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 05:12:48&lt;/sys_updated_on&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>865469051</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>67aff1e62ffc0110a972a55df699b689</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de23310000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>x_266114_rap_cache.RapCacheClient</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_266114_rap_cache_rapcache_pairs_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="pairs" label="Pairs" language="en" table="x_266114_rap_cache_rapcache"><sys_documentation action="INSERT_OR_UPDATE"><element>pairs</element><help/><hint/><label>Pairs</label><language>en</language><name>x_266114_rap_cache_rapcache</name><plural>Pairs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:55:42</sys_created_on><sys_id>489291ae2fb80110a972a55df699b6ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pairs</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_documentation_x_266114_rap_cache_rapcache_pairs_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:55:42</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-75848021</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>6baff1e62ffc0110a972a55df699b685</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de217d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache.Pairs</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_54f1516e2fb80110a972a55df699b613</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:59</sys_created_on><sys_id>54f1516e2fb80110a972a55df699b613</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache.admin</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_security_acl display_value="x_266114_rap_cache_rapcache">14f1516e2fb80110a972a55df699b610</sys_security_acl><sys_update_name>sys_security_acl_role_54f1516e2fb80110a972a55df699b613</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:59</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1142339493</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>6baff1e62ffc0110a972a55df699b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21080000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>x_266114_rap_cache_rapcache.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_689415622ff80110a972a55df699b666</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:04:31</sys_created_on><sys_id>689415622ff80110a972a55df699b666</sys_id><sys_mod_count>0</sys_mod_count><sys_name>345319ee2fb80110a972a55df699b633</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ws_query_parameter_map_689415622ff80110a972a55df699b666</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:04:31</sys_updated_on><web_service_operation display_value="get">277455ae2fb80110a972a55df699b67e</web_service_operation><web_service_query_parameter display_value="id">345319ee2fb80110a972a55df699b633</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>-1437923827</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>6baff1e62ffc0110a972a55df699b68b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>345319ee2fb80110a972a55df699b633</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_266114_rap_cache_rapcache_number</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_266114_rap_cache_rapcache"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Number</column_label><comments/><create_roles/><default_value>javascript:global.getNextObjNumberPadded();</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>number</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_266114_rap_cache_rapcache</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:57</sys_created_on><sys_id>7fe1116e2fb80110a972a55df699b6da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_dictionary_x_266114_rap_cache_rapcache_number</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:57</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-607660964</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>6faff1e62ffc0110a972a55df699b684</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de207b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_18f1152a2fb80110a972a55df699b61f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_266114_rap_cache_rapcache</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:59</sys_created_on><sys_id>18f1152a2fb80110a972a55df699b61f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_security_acl_18f1152a2fb80110a972a55df699b61f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1856215346</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>6faff1e62ffc0110a972a55df699b687</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20bd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>x_266114_rap_cache_rapcache</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_345319ee2fb80110a972a55df699b633</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value/><name>id</name><required>true</required><short_description/><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:59:08</sys_created_on><sys_id>345319ee2fb80110a972a55df699b633</sys_id><sys_mod_count>1</sys_mod_count><sys_name>id</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ws_query_parameter_345319ee2fb80110a972a55df699b633</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:04:45</sys_updated_on><web_service_definition display_value="RapCache API">15331dae2fb80110a972a55df699b650</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+<payload_hash>-2096856806</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>6faff1e62ffc0110a972a55df699b68a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21f10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>id</target_name>
+<type>Scripted REST Query Parameter</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_2fe9552a2ff80110a972a55df699b6aa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:27:53</sys_created_on><sys_id>2fe9552a2ff80110a972a55df699b6aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableServiceResultBuilder.setBody</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_scope_privilege_2fe9552a2ff80110a972a55df699b6aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:27:53</sys_updated_on><target_name>ScriptableServiceResultBuilder.setBody</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1597006113</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>a3aff1e62ffc0110a972a55df699b686</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22830000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>ScriptableServiceResultBuilder.setBody</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_x_266114_rap_cache_rapcache_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_266114_rap_cache_rapcache" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_266114_rap_cache_rapcache" element="NULL" name="x_266114_rap_cache_rapcache" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f00811e22ff80110a972a55df699b6fc</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:19:31</sys_created_on><sys_id>bc0811e22ff80110a972a55df699b6fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:19:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>pairs</element><list_id display_value="x_266114_rap_cache_rapcache" element="NULL" name="x_266114_rap_cache_rapcache" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f00811e22ff80110a972a55df699b6fc</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:19:31</sys_created_on><sys_id>300811e22ff80110a972a55df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:19:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>notes</element><list_id display_value="x_266114_rap_cache_rapcache" element="NULL" name="x_266114_rap_cache_rapcache" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f00811e22ff80110a972a55df699b6fc</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:19:31</sys_created_on><sys_id>b00811e22ff80110a972a55df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:19:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_on</element><list_id display_value="x_266114_rap_cache_rapcache" element="NULL" name="x_266114_rap_cache_rapcache" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f00811e22ff80110a972a55df699b6fc</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:19:31</sys_created_on><sys_id>340811e22ff80110a972a55df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:19:31</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_by</element><list_id display_value="x_266114_rap_cache_rapcache" element="NULL" name="x_266114_rap_cache_rapcache" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f00811e22ff80110a972a55df699b6fc</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:19:31</sys_created_on><sys_id>b40811e22ff80110a972a55df699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:19:31</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_266114_rap_cache_rapcache</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:19:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f00811e22ff80110a972a55df699b6fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ui_list_x_266114_rap_cache_rapcache_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:19:30</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-254758192</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>a3aff1e62ffc0110a972a55df699b689</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_afe1116e2fb80110a972a55df699b6cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_266114_rap_cache_rapcache</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:56</sys_created_on><sys_id>afe1116e2fb80110a972a55df699b6cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>ua_table_licensing_config_afe1116e2fb80110a972a55df699b6cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:56</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>1410355049</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>a3aff1e62ffc0110a972a55df699b68c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>x_266114_rap_cache_rapcache</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_266114_rap_cache_rapcache_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="number" label="Number" language="en" table="x_266114_rap_cache_rapcache"><sys_documentation action="INSERT_OR_UPDATE"><element>number</element><help/><hint/><label>Number</label><language>en</language><name>x_266114_rap_cache_rapcache</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:57</sys_created_on><sys_id>ffe1116e2fb80110a972a55df699b6dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_documentation_x_266114_rap_cache_rapcache_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:57</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>255237680</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>a7aff1e62ffc0110a972a55df699b685</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de209c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_54f1516e2fb80110a972a55df699b60c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:59</sys_created_on><sys_id>54f1516e2fb80110a972a55df699b60c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache.admin</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_security_acl display_value="x_266114_rap_cache_rapcache">18f1152a2fb80110a972a55df699b61f</sys_security_acl><sys_update_name>sys_security_acl_role_54f1516e2fb80110a972a55df699b60c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:59</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1777644771</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>a7aff1e62ffc0110a972a55df699b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20f80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>x_266114_rap_cache_rapcache.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_6434d9222ff80110a972a55df699b6be</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:02:53</sys_created_on><sys_id>6434d9222ff80110a972a55df699b6be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>345319ee2fb80110a972a55df699b633</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ws_query_parameter_map_6434d9222ff80110a972a55df699b6be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:02:53</sys_updated_on><web_service_operation display_value="edit">4ae31dee2fb80110a972a55df699b639</web_service_operation><web_service_query_parameter display_value="id">345319ee2fb80110a972a55df699b633</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>1409348603</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>a7aff1e62ffc0110a972a55df699b68b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21af0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>345319ee2fb80110a972a55df699b633</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_6191996a2fb80110a972a55df699b6d6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>true</can_edit_in_studio><enforce_license>none</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><installed_as_dependency>false</installed_as_dependency><js_level>helsinki_es5</js_level><licensable>true</licensable><license/><license_category>none</license_category><license_definition/><license_model>none</license_model><logo>4a915d6a2fb80110a972a55df699b69a</logo><menu/><name>RapCache</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_266114_rap_cache</scope><scoped_administration>false</scoped_administration><short_description>Dev friendly caching</short_description><source>x_266114_rap_cache</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:51:26</sys_created_on><sys_id>6191996a2fb80110a972a55df699b6d6</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:51:28</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>700000</chunk_size_bytes><compressed>true</compressed><content_type>image/png</content_type><file_name>rapdev.png</file_name><hash>7f86e4fcc822d242940b85ef8a0bae47a4686e3c4a33e4fbf1c44bad442c2507</hash><image_height/><image_width/><size_bytes>2232</size_bytes><size_compressed>2186</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:51:28</sys_created_on><sys_id>4a915d6a2fb80110a972a55df699b69a</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-01-05 02:51:29</sys_updated_on><table_name>sys_app</table_name><table_sys_id>6191996a2fb80110a972a55df699b6d6</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="rapdev.png" sys_id="4a915d6a2fb80110a972a55df699b69a">4a915d6a2fb80110a972a55df699b69a</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:51:28</sys_created_on><sys_id>8a915d6a2fb80110a972a55df699b69a</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>jZb7NxMMA8cnt7nN3M11mOWWOzUh20w8Es3lIfdbJHIdEa8aYx7DMmxCRipKNHOQolwy5lauleJ5YhFKDJHweH57z3vO+573e873+znfv+D7zXE5f1ZMWEEYAACIOdjbYo+YfeQwoMBR6ty9QDwCTzz2LArQMKL05ajwhSGdkAAAo0DkVyD/UReKsfeKBwBAPf+YhxVdGwIAAJ0cbJFu1/y+VljVKmOkb0Q3X5MdYK4X0Alg+6rwl6YKIsFbY3wi6RKwvIBACSSR8I8ChEXUZBlAeYaRO/aVei+8li57E8iDkdIkOCiML+1vz3LjjKNHvw3N7s9xuzhX/WY/ViC4w6VPmWeiZ9LjL+VTenwHk1jv8IN/0dqU8nP+HVKL7Lz0Em/vdVx+Dl668c6pkijVdy+MTj/ZW4/0ni8NrvZ5Gpv21KzM131GgdpjFItQkvq/QTnP+fM2XvVw58R1Gd8EY02YiiRFf36M/coa+2ZcLr30hb9B/Xf06W8VL6bCridaF3a8/RwWvLD5qnKRsWs1o78CxbEI88rWOOMZ6+YfpasyYzQlJSUIW0eZt4v+PViCs0PgDuY3pfiYJ55pKdI8oV/R34Wss1yTdcsUPtEyzUza3a8e6l4EfU1LUSE/pjZvKS8n/OpO8mrpR087BKnrWXjG9qVFH9oVwh6zL8D4ZeaY3L8Wur1Ls/ddIBL1a9Des2HOBoe4sok2sCBMDb4xZr+Y8061MgoDSoM6PRyWXT3jbKlje9EXd+iE8umOm4ZQn4N6OwctxCsv+4AU8qg2hHsbODQB5XAKxFopg1rsoFxDOZ7JhZ55oPbUqbWP+13lnETj1XKUkNsBlzobXl/1tpE0XDNd1nowPDvqe4BrWXvjy1S+8iPkcFpQ3k6rLGbzT10v3shoOqmX8y55P1lC5NOxsZwNC51QSsv8IfdfD8YsBBOzvhSyuRG8+PrrUE7y115GZOSaCNY85GD7cVJ8hv9JJe7g9NyHVRtoqW9YkadOaP6P0VSmtgC/uvdq+9rN1bmorlj/1E919YI+7du/bzPjqQbD6Z2zKV4bdDkT1TGxSVklRdizMY+T0R9vszgHw0OT9p+hvhFG+SqpiOtrwsZEFQNtfzkIrDEsEUI1fCYpZcVPVHMAjVFAqf5wPF+1I3JJ78NFrVa5bf4mnneOwOPcUNtB5GjA4jFurnnfG892yczg/vpKeXfITBnMQJ8RSiqZ/17XWOKdy7vtIFoVhXx7kgWm+W+qUbKWtlEkT2T1AhTYZKLTqEiPbta0vyMvykwjnDP4ZNzcO3SmeuHP8hsvNyLnLqPJajlqS7tnhz7cdQPtK0O47TsRHoT7/LdOxZDUiDxFZqFvdYvRD1SjZsHhWHBmQKzjWjqwpjmwSimEVDVkpqfFHEl0EjVC46/1XipAIbLKzUw3N9z5AsNDxdDpxarGjDlTEc5rSonaJbFhHXz/89wfdvplVyANajldRRkBRCVtCs3aFQOGeNwcjfa+Kl5anC2T1o54HhnVXyOMgiLGBxZc06/2G9b3ArE0RKZ1Q1YDSgbZZ3euzC40nzHAk4z/RY7BRiz1kgQIUmMMKeGNkTpKUshQnVQxou+cFtDfy5fMf1/p9+PSdG3hTz2/HXMdgYorVLcp/aEtFLeIxRy0MrQQ900FnDFkGq5eC7Fw/jvjJTv6QoYzEtzRYPJlCAn1ZNFvVe6tzq/eHm0SUGVC21UwIqm3Su+2PdgSYiuwobr0QGW2hzWXbzcehgeWR7WOyGGc7bcg762Rd+NbpHlgugsD4D9c4Flg4e4KHHoU+hNLqm5s/pw3US+7zAkpeT3T/pEBVKhAuFwwp/QVsRQNdwtnBDMnfhJjjh2fD+JfUUxQp/+a6FG/CFqygE61FYhOxeuTtaR526w1txSKjYCokuLcEnYQ2KreZvlrAk5DHI4UGOso/4064Q8XqJTZTNQLptX0gbTJsGwfiUkZU1H0Tc0MuDQ6U/JhPw9a1lb8Ve/5aY0CLUSCBvniXr5m1uZt92x8lbB6j9BSfpCEZnYn5c7LlYzNvCYSD85Hz8oUGW4SxBsyTBuCVCASbJ6p+OnR9GRz1jHDWHEM+QmaFSJGvBNv+GjyC03x0Z40sPc12k8rS//K5K6dSjJ+83IVKWUFJNUSLOEghbV6rgd6L45k9wIQb2x3V4p4UcifTS52EK1cmw7Xzs7jA8iAPTgQW5TDUzMFX0MMDEJTnGqiwqU+qePsSBOYIRiCboDXyx8cF40+CehQdxYlD3hSkr7FRuaIvD7lOzRaqxu3LBRePPk1BAF1BguPe0C72T23knuk753b/UgbnPe4SUBUIIlChc2aQNZ4POlhkI0mAirN9x7IJzNdLKiTbmNmT9QvuNp2H5oRfgHzGZ4N2XbyCeflMbKu0xKgFdy2jI9dXzR4uXzLsoXMUtiQRyd/0Kjc/flgjXmDeApnSStmc4mOCNCTQ/GTfv14F74Cuo9lVtz6NbY5/VxIneP0wWxquF4oWbQlLepxS1tqykGkbHwaTg7f2bG2W3x1jmSx3reba1zbXGxGdsTfM3GCuJW7OwnVZqXJimkopEg1umMj3bVOs0Ye8XKqQHWxgf6SVMPZVZPyPbd75gg+hSKWrRdahACXV8+9sRVkXTksAjfUizmmf2/D3vEpNvOh4rKr6YKkuF+T8oEKVfs7E1Pe8i3j2sT+ol0EFU1vDWiVIbk9tFezd2Z2DjQLhaqZe2g8QPnsCMCDJh2C44BB1yNsagRjKuwqOqqc+5+U6giv2++ePuF+2ScffKUNjGXNGakxGLaXL2aRpzgxWWgODhT26z+H9n9Dm0UZ1M29nxJFcI2xEoxZd5CiViJ66C6gsPc75f9lYWnDB4KVxh92jB3XJ4/eBsABc962ARWA/xvYhhbHuAgAAA==</data><length>2904</length><position>1</position><sys_attachment display_value="rapdev.png" sys_id="4a915d6a2fb80110a972a55df699b69a">4a915d6a2fb80110a972a55df699b69a</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:51:28</sys_created_on><sys_id>0e915d6a2fb80110a972a55df699b69a</sys_id></sys_attachment_doc></record_update>]]></payload>
+<payload_hash>1209444938</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>abafb9e22ffc0110a972a55df699b6e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de1fd60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>RapCache</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_266114_rap_cache_rapcache_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_266114_rap_cache_rapcache"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_266114_rap_cache_rapcache</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:56</sys_created_on><sys_id>6be1116e2fb80110a972a55df699b6b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_dictionary_x_266114_rap_cache_rapcache_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:56</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-947570312</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>abaff1e62ffc0110a972a55df699b684</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20140000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_14f1516e2fb80110a972a55df699b610</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_266114_rap_cache_rapcache</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:59</sys_created_on><sys_id>14f1516e2fb80110a972a55df699b610</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_security_acl_14f1516e2fb80110a972a55df699b610</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-202350490</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>abaff1e62ffc0110a972a55df699b687</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20ac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>x_266114_rap_cache_rapcache</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_c84411622ff80110a972a55df699b69f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;getAll&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	var cu = new RapCache();
+	var cache = cu.set(request.queryParams["id"][0].toString());
+	
+	var result = {};
+	result.key_value = cu.getAll();
+	response.setBody(result);
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/x_266114_rap_cache/v1/get-all&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/get-all&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 03:03:25&lt;/sys_created_on&gt;&lt;sys_id&gt;c84411622ff80110a972a55df699b69f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;getAll&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_c84411622ff80110a972a55df699b69f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 03:51:45&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="RapCache API"&gt;15331dae2fb80110a972a55df699b650&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1048052220</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>abaff1e62ffc0110a972a55df699b68a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22f70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>getAll</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_b002d16e2fb80110a972a55df699b61f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="RapCache">3c02d16e2fb80110a972a55df699b615</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_266114_rap_cache_rapcache</name><order>3</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:53:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b002d16e2fb80110a972a55df699b61f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_app_module_b002d16e2fb80110a972a55df699b61f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:53:18</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>415634261</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>afaff1e62ffc0110a972a55df699b683</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de214a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>All</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_ef7599622ff80110a972a55df699b696</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:08:30</sys_created_on><sys_id>ef7599622ff80110a972a55df699b696</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.insert</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_scope_privilege_ef7599622ff80110a972a55df699b696</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:08:30</sys_updated_on><target_name>GlideRecord.insert</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-839660479</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>afaff1e62ffc0110a972a55df699b686</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22130000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>GlideRecord.insert</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_277455ae2fb80110a972a55df699b67e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;get&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	var cu = new RapCache();
+	var cache = cu.set(request.queryParams["id"][0].toString());
+	
+	var result = {};
+	result.key_value = cu.get(request.queryParams["key"][0].toString());
+	response.setBody(result);
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/x_266114_rap_cache/v1/get&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/get&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 03:04:21&lt;/sys_created_on&gt;&lt;sys_id&gt;277455ae2fb80110a972a55df699b67e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;get&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_277455ae2fb80110a972a55df699b67e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 03:51:40&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="RapCache API"&gt;15331dae2fb80110a972a55df699b650&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-459135622</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>afaff1e62ffc0110a972a55df699b689</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22e20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>get</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_37006de22f3c0110a972a55df699b61b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time/&gt;&lt;name&gt;RapCache Purge&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;6&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2022-01-05 03:54:40&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;&lt;run_type&gt;weekly&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[var c = new GlideRecord('x_266114_rap_cache_rapcache');
+c.addEncodedQuery('sys_created_on&lt;javascript:gs.beginningOfLastWeek()');
+c.deleteMultiple();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 03:55:57&lt;/sys_created_on&gt;&lt;sys_id&gt;37006de22f3c0110a972a55df699b61b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;RapCache Purge&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_37006de22f3c0110a972a55df699b61b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 03:55:57&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1979646456</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>e3afb9e22ffc0110a972a55df699b6e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de230c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>RapCache Purge</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_266114_rap_cache_rapcache_notes_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="notes" label="Notes" language="en" table="x_266114_rap_cache_rapcache"><sys_documentation action="INSERT_OR_UPDATE"><element>notes</element><help/><hint/><label>Notes</label><language>en</language><name>x_266114_rap_cache_rapcache</name><plural>Notes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:57</sys_created_on><sys_id>3be1116e2fb80110a972a55df699b6d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notes</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_documentation_x_266114_rap_cache_rapcache_notes_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:57</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1419287259</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>e3aff1e62ffc0110a972a55df699b685</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20610000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache.Notes</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_1cf1516e2fb80110a972a55df699b61c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_266114_rap_cache_rapcache</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:59</sys_created_on><sys_id>1cf1516e2fb80110a972a55df699b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_security_acl_1cf1516e2fb80110a972a55df699b61c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-967799920</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>e3aff1e62ffc0110a972a55df699b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20db0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>x_266114_rap_cache_rapcache</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_3954ddee2fb80110a972a55df699b6b6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:03:31</sys_created_on><sys_id>3954ddee2fb80110a972a55df699b6b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>345319ee2fb80110a972a55df699b633</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ws_query_parameter_map_3954ddee2fb80110a972a55df699b6b6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:03:31</sys_updated_on><web_service_operation display_value="getAll">c84411622ff80110a972a55df699b69f</web_service_operation><web_service_query_parameter display_value="id">345319ee2fb80110a972a55df699b633</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>467857044</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>e3aff1e62ffc0110a972a55df699b68b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21bd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>345319ee2fb80110a972a55df699b633</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_266114_rap_cache_rapcache_notes</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="notes" table="x_266114_rap_cache_rapcache"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Notes</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>notes</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>1000</max_length><name>x_266114_rap_cache_rapcache</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:57</sys_created_on><sys_id>ebe1116e2fb80110a972a55df699b6d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notes</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_dictionary_x_266114_rap_cache_rapcache_notes</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:57</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-830220249</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>e7aff1e62ffc0110a972a55df699b684</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de208c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>RapCache.Notes</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_55a295ae2fb80110a972a55df699b62c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_266114_rap_cache.RapCache&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;RapCache&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var RapCache = Class.create();
+RapCache.prototype = {
+    initialize: function() {
+		this.id = '';
+		this.cache = '';
+		/* polling properties */
+		this.MAX_RETRIES = 3;
+		this.POLLING_SLEEP = 2000; /* 2 seconds */
+    },
+	
+	init: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.initialize();
+		this.id = cache.insert();
+		return this.set(this.id);
+	},
+	
+	set: function(id){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(id);
+		this.cache = cache;
+		this.id = this.cache.sys_id.toString();
+		return this.cache;
+	},
+	
+	clear: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = '';
+		cache.deleteRecord();
+	},
+	
+	edit: function(key, value){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		this.cache.pairs[key] = value;
+		this.cache.update();
+		return this.cache;
+	},
+	
+	commit: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		cache.pairs = this.cache.pairs;
+		this.cache = cache.update();
+		return this.cache;
+	},
+	
+	get: function(key){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs[key];
+	},
+	
+	getAll: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs;
+	},
+	
+	poll: function(key){
+		iterations = 0;
+		while (iterations &lt;= this.MAX_RETRIES){
+			iterations++;
+			var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+			cache.get(this.id);
+			this.cache = cache;
+			if (this.cache.pairs[key]){
+				return this.cache.pairs[key];
+			}
+			gs.sleep(this.POLLING_SLEEP);
+		}
+		return ''; /* Return empty string if value is not found */
+	},
+
+    type: 'RapCache'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 02:57:04&lt;/sys_created_on&gt;&lt;sys_id&gt;55a295ae2fb80110a972a55df699b62c&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;RapCache&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_55a295ae2fb80110a972a55df699b62c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 05:32:15&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>975767660</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>e7aff1e62ffc0110a972a55df699b687</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de234e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>RapCache</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_59d4d9622ff80110a972a55df699b64d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;init&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	var c = new RapCache();
+	var cache = c.init();
+	var result = {};
+	result.id = c.id;
+	result.key_value_pairs = c.getAll();
+	response.setBody(result);
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/x_266114_rap_cache/v1/init&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/init&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 03:05:54&lt;/sys_created_on&gt;&lt;sys_id&gt;59d4d9622ff80110a972a55df699b64d&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;init&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_59d4d9622ff80110a972a55df699b64d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 03:31:16&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="RapCache API"&gt;15331dae2fb80110a972a55df699b650&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1666272454</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>e7aff1e62ffc0110a972a55df699b68a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22970000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>init</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_3802d16e2fb80110a972a55df699b619</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="RapCache">3c02d16e2fb80110a972a55df699b615</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>RapCache</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:53:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3802d16e2fb80110a972a55df699b619</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RapCache</sys_name><sys_overrides/><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_app_module_3802d16e2fb80110a972a55df699b619</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:53:18</sys_updated_on><timeline_page/><title>RapCache</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-590125265</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>ebaff1e62ffc0110a972a55df699b683</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de213f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>RapCache</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_865c5dea2ff80110a972a55df699b6e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:38:26</sys_created_on><sys_id>865c5dea2ff80110a972a55df699b6e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScopedGlideElement</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_scope_privilege_865c5dea2ff80110a972a55df699b6e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:38:26</sys_updated_on><target_name>ScopedGlideElement</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-1112570623</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>ebaff1e62ffc0110a972a55df699b686</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de22b80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>ScopedGlideElement</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_15331dae2fb80110a972a55df699b650</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/x_266114_rap_cache/v1</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>RapCache API</name><namespace>x_266114_rap_cache</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>v1</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:58:47</sys_created_on><sys_id>15331dae2fb80110a972a55df699b650</sys_id><sys_mod_count>2</sys_mod_count><sys_name>RapCache API</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ws_definition_15331dae2fb80110a972a55df699b650</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:01:08</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>752045673</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>ebaff1e62ffc0110a972a55df699b689</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21a00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>RapCache API</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_6fe1116e2fb80110a972a55df699b6d1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_266114_rap_cache_rapcache">x_266114_rap_cache_rapcache</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>RC</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:56</sys_created_on><sys_id>6fe1116e2fb80110a972a55df699b6d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RC</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_number_6fe1116e2fb80110a972a55df699b6d1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:56</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>1891645395</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>efaff1e62ffc0110a972a55df699b685</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de20320000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>RC</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5cf1516e2fb80110a972a55df699b61f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 02:52:59</sys_created_on><sys_id>5cf1516e2fb80110a972a55df699b61f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_266114_rap_cache_rapcache.admin</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_security_acl display_value="x_266114_rap_cache_rapcache">1cf1516e2fb80110a972a55df699b61c</sys_security_acl><sys_update_name>sys_security_acl_role_5cf1516e2fb80110a972a55df699b61f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 02:52:59</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1568931587</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>efaff1e62ffc0110a972a55df699b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table>x_266114_rap_cache_rapcache</table>
+<target_name>x_266114_rap_cache_rapcache.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_query_parameter_map_f994d9222ff80110a972a55df699b6c2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map"><sys_ws_query_parameter_map action="INSERT_OR_UPDATE"><sys_class_name>sys_ws_query_parameter_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-05 03:04:36</sys_created_on><sys_id>f994d9222ff80110a972a55df699b6c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>686391ee2fb80110a972a55df699b6e4</sys_name><sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package><sys_policy/><sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope><sys_update_name>sys_ws_query_parameter_map_f994d9222ff80110a972a55df699b6c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-05 03:04:36</sys_updated_on><web_service_operation display_value="get">277455ae2fb80110a972a55df699b67e</web_service_operation><web_service_query_parameter display_value="key">686391ee2fb80110a972a55df699b6e4</web_service_query_parameter></sys_ws_query_parameter_map></record_update>]]></payload>
+<payload_hash>-459428013</payload_hash>
+<remote_update_set display_value="RapCache">efafb9e22ffc0110a972a55df699b6e8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-05 06:12:49</sys_created_on>
+<sys_id>efaff1e62ffc0110a972a55df699b68b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e28de21e30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-05 06:12:49</sys_updated_on>
+<table/>
+<target_name>686391ee2fb80110a972a55df699b6e4</target_name>
+<type>Scripted REST Query Parameter Associatio</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

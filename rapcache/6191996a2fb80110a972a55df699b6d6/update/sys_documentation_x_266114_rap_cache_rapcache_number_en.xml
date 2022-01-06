@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number" label="Number" language="en" table="x_266114_rap_cache_rapcache">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>Number</label>
+            <language>en</language>
+            <name>x_266114_rap_cache_rapcache</name>
+            <plural>Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-05 02:52:57</sys_created_on>
+            <sys_id>ffe1116e2fb80110a972a55df699b6dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number</sys_name>
+            <sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope>
+            <sys_update_name>sys_documentation_x_266114_rap_cache_rapcache_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-05 02:52:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

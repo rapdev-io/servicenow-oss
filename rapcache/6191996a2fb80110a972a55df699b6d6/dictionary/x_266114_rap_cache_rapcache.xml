@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="RapCache" max_length="40" name="x_266114_rap_cache_rapcache" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Pairs" max_length="100000" name="pairs" type="simple_name_values"/>
+    </element>
+</database>
