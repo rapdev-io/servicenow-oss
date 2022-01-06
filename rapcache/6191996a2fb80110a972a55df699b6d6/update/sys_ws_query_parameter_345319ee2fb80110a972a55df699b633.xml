@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="INSERT_OR_UPDATE">
+        <example_value/>
+        <name>id</name>
+        <required>true</required>
+        <short_description/>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 02:59:08</sys_created_on>
+        <sys_id>345319ee2fb80110a972a55df699b633</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>id</sys_name>
+        <sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_345319ee2fb80110a972a55df699b633</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 03:04:45</sys_updated_on>
+        <web_service_definition display_value="RapCache API">15331dae2fb80110a972a55df699b650</web_service_definition>
+    </sys_ws_query_parameter>
+</record_update>

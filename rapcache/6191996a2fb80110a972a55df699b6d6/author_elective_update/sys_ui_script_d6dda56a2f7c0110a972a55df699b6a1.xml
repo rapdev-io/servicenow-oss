@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_266114_rap_cache.RapCacheClient</name>
+        <script><![CDATA[var RapCacheClient=Class.create();
+RapCacheClient.prototype={
+	initialize: function()
+	{
+		
+	},
+	
+	demoCallFromClientScript: function(TableName)
+	{
+		return 'hello';
+		
+	},
+	
+	
+};]]></script>
+        <script_name>RapCacheClient</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 04:55:52</sys_created_on>
+        <sys_id>d6dda56a2f7c0110a972a55df699b6a1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>x_266114_rap_cache.RapCacheClient</sys_name>
+        <sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope>
+        <sys_update_name>sys_ui_script_d6dda56a2f7c0110a972a55df699b6a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 05:12:48</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RapCache">6191996a2fb80110a972a55df699b6d6</application>
+        <file_path/>
+        <instance_id>9c7d57b9dbfe001042b321c40596190e</instance_id>
+        <instance_name>dev99673</instance_name>
+        <name>sys_ui_script_d6dda56a2f7c0110a972a55df699b6a1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_266114_rap_cache.RapCacheClient&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var RapCacheClient=Class.create();
+RapCacheClient.prototype={
+	initialize: function()
+	{
+		
+	},
+	
+	demoCallFromClientScript: function(TableName)
+	{
+		return 'hello';
+		
+	},
+	
+	
+};]]&gt;&lt;/script&gt;&lt;script_name&gt;RapCacheClient&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-05 04:55:52&lt;/sys_created_on&gt;&lt;sys_id&gt;d6dda56a2f7c0110a972a55df699b6a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_266114_rap_cache.RapCacheClient&lt;/sys_name&gt;&lt;sys_package display_value="RapCache" source="x_266114_rap_cache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RapCache"&gt;6191996a2fb80110a972a55df699b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_d6dda56a2f7c0110a972a55df699b6a1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-05 05:12:48&lt;/sys_updated_on&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-3816081</payload_hash>
+        <record_name>x_266114_rap_cache.RapCacheClient</record_name>
+        <reverted_from/>
+        <source>ad91996a2fb80110a972a55df699b6d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 05:12:49</sys_created_on>
+        <sys_id>a0f13d6e2f7c0110a972a55df699b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e28a770710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 05:12:49</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>2cf13d6e1a7c01101e724e9ea99db214</update_guid>
+        <update_guid_history>2cf13d6e1a7c01101e724e9ea99db214:-3816081,73a1756ec57c011077a47b3b0db2cf47:1358392559,1a81b1aed97c0110b756c7d5e1ddd1fc:-1217452646,15c0fd6e027c01101d76385be389d7fb:-1690378902,1290b9ea9f7c011063b16315475d1980:2015606656,8250b9ea713c01109da6e3e039d034d1:1757365843,8e4fa56a127c0110655ac701c6460c8c:2015606656,b15e2526593c0110ec2e8289fa2e6bc1:1537574293,941ee92a6d7c01107e3ef9dfac73de5d:-1881869525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 05:14:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>5382b8fca880465692a4a2cf2459e1f9</sys_id>
+        <sys_metadata>d6dda56a2f7c0110a972a55df699b6a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_266114_rap_cache.RapCacheClient</sys_name>
+        <sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope>
+        <sys_scope_delete display_value="">405dd4d765234cf49e1f2019a3edcb90</sys_scope_delete>
+        <sys_update_name>sys_ui_script_d6dda56a2f7c0110a972a55df699b6a1</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_d6dda56a2f7c0110a972a55df699b6a1">a0f13d6e2f7c0110a972a55df699b615</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 05:14:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

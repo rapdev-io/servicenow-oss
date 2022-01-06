@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>RapCache Purge</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>6</run_dayofweek>
+        <run_period/>
+        <run_start>2022-01-05 03:54:40</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>weekly</run_type>
+        <script><![CDATA[var c = new GlideRecord('x_266114_rap_cache_rapcache');
+c.addEncodedQuery('sys_created_on<javascript:gs.beginningOfLastWeek()');
+c.deleteMultiple();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 03:55:57</sys_created_on>
+        <sys_id>37006de22f3c0110a972a55df699b61b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RapCache Purge</sys_name>
+        <sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope>
+        <sys_update_name>sysauto_script_37006de22f3c0110a972a55df699b61b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 03:55:57</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_266114_rap_cache.RapCache</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>RapCache</name>
+        <script><![CDATA[var RapCache = Class.create();
+RapCache.prototype = {
+    initialize: function() {
+		this.id = '';
+		this.cache = '';
+		/* polling properties */
+		this.MAX_RETRIES = 3;
+		this.POLLING_SLEEP = 2000; /* 2 seconds */
+    },
+	
+	init: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.initialize();
+		this.id = cache.insert();
+		return this.set(this.id);
+	},
+	
+	set: function(id){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(id);
+		this.cache = cache;
+		this.id = this.cache.sys_id.toString();
+		return this.cache;
+	},
+	
+	clear: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = '';
+		cache.deleteRecord();
+	},
+	
+	edit: function(key, value){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		this.cache.pairs[key] = value;
+		this.cache.update();
+		return this.cache;
+	},
+	
+	commit: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		cache.pairs = this.cache.pairs;
+		this.cache = cache.update();
+		return this.cache;
+	},
+	
+	get: function(key){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs[key];
+	},
+	
+	getAll: function(){
+		var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+		cache.get(this.id);
+		this.cache = cache;
+		return this.cache.pairs;
+	},
+	
+	poll: function(key){
+		iterations = 0;
+		while (iterations <= this.MAX_RETRIES){
+			iterations++;
+			var cache = new GlideRecord('x_266114_rap_cache_rapcache');
+			cache.get(this.id);
+			this.cache = cache;
+			if (this.cache.pairs[key]){
+				return this.cache.pairs[key];
+			}
+			gs.sleep(this.POLLING_SLEEP);
+		}
+		return ''; /* Return empty string if value is not found */
+	},
+
+    type: 'RapCache'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 02:57:04</sys_created_on>
+        <sys_id>55a295ae2fb80110a972a55df699b62c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>RapCache</sys_name>
+        <sys_package display_value="RapCache" source="x_266114_rap_cache">6191996a2fb80110a972a55df699b6d6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="RapCache">6191996a2fb80110a972a55df699b6d6</sys_scope>
+        <sys_update_name>sys_script_include_55a295ae2fb80110a972a55df699b62c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 05:32:15</sys_updated_on>
+    </sys_script_include>
+</record_update>
