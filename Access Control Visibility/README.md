@@ -7,10 +7,10 @@ This update set contains reports in a dashboard providing visibility into resour
 3. Review errors/warnings if any
 4. Commit Update set
 5. Navigate to UI Properties (system_properties_ui) and confirm the following tables are included in _"List of system tables (beginning with "sys_", comma separated), that are reportable. By default, system tables are not reportable"_
-  - sys_security_acl
-  - sys_ws_operation
-  - sys_app_module
-  - sys_app_application
+      - sys_security_acl
+      - sys_ws_operation
+      - sys_app_module
+      - sys_app_application
   The dashboard report data in these tables
 6. Navigate to System Properties (sys_properties) and set _glide.sm.default_mode_ to 'deny'
 
