@@ -14,3 +14,5 @@ We provide this update set as an audit solution to misconfigured instances that 
 6. Navigate to System Properties (sys_properties) and set _glide.sm.default_mode_ to 'deny'
 
 You can now view the newly created Dashboard - _Access Visibility_ and the the records reported.
+
+![image](https://user-images.githubusercontent.com/88504044/159490608-1d6912a2-dedb-4f56-91dc-3a480a9244fc.png)
