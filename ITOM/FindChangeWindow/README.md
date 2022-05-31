@@ -2,6 +2,7 @@
 The flow action "Find Next Open Change Window" will take in as inputs a change reference, and a number of hours into the future to look for a window without conflicts. 
 
 
+
 It will output a boolean that will be true if no window is found to deploy the change within the number of hours provided as input, and a basic date/time that reflects the new start date on the change. 
 
 
