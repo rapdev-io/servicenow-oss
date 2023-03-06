@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-02-27 18:54:03">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>v1.0 Adds 'Print' button to display contents of Update Sets
+v1.1 Adds ability to select multiple Update Sets in list view
+v1.2 Adds functionality to consolidate Updates from multiple Update Sets into their respective types</description>
+<inserted/>
+<name>Update Set Printer v1.2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>fecf5e482f04a5109cb0d6ab2799b67f</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>6576559d2f9521109cb0d6ab2799b6c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_e5cc48922f7021109cb0d6ab2799b6ce</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments&gt;For multiple Update Sets&lt;/comments&gt;&lt;condition/&gt;&lt;form_action&gt;false&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;true&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;true&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Print&lt;/name&gt;&lt;onclick&gt;printUpdateSets();&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function printUpdateSets(){
+	
+	var consolidate = confirm("Press 'OK' if you want to consolidate all updates by Type. Otherwise press 'Cancel' to list all updates by Update Set.");
+
+	var sys_ids = g_list.getChecked();
+
+	var url = 'sp?id=print_update_set&amp;sysparm_update_set=' + sys_ids + '&amp;sysparm_consolidate=' + consolidate;
+	g_navigation.openPopup(url);
+	return false;
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-05 19:40:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e5cc48922f7021109cb0d6ab2799b6ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Print&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_e5cc48922f7021109cb0d6ab2799b6ce&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-20 02:36:12&lt;/sys_updated_on&gt;&lt;table&gt;sys_update_set&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1529218258</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>257699dd2f9521109cb0d6ab2799b689</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1866cadc5440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table>sys_update_set</table>
+<target_name>Print</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>b983f5723ac12110a2572952216864e0</update_guid>
+<update_guid_history>b983f5723ac12110a2572952216864e0:-1529218258,7c53717236c12110b7c9c386dbf05a2a:-1306884721,bef279fa05812110a06b7f9a4775576a:-1026225420,4641e53e380121108b6925065f786444:-1523960509,0def197a04012110b8d5f4f14cba2193:1177587559,32be117a7a0121109843e7007e7c00da:93840705,997e113a6b01211005672d809d881a3d:-1755465695,4832505220b02110029101816531670d:-808058061,87d1dc1266b02110a7d830ee702068ea:-1244622539,1f91949eda7021101ad208cf028fdf6b:-1541251445,ca70945edc702110d87ddb4330be84ea:770565685,3e00549a17702110b345a524ad45045b:-2070819528,7d5f885a317021101820ce1b957ed86f:84836671,847e845a1b702110ad10f835ed5c52ea:-514649575,3e1e845a36702110bb71d5a1dca168a8:-2097712869</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_d09d22442f84a5109cb0d6ab2799b6d8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">589deac02f84a5109cb0d6ab2799b611</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-24 00:43:42</sys_created_on><sys_id>d09d22442f84a5109cb0d6ab2799b6d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_d09d22442f84a5109cb0d6ab2799b6d8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-24 00:43:42</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-1634140497</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>2976559d2f9521109cb0d6ab2799b6c8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1854195ed110000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>ac9d2244d984a510fadc454e1cf0acd9</update_guid>
+<update_guid_history>ac9d2244d984a510fadc454e1cf0acd9:-1634140497</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_589deac02f84a5109cb0d6ab2799b611</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Print Update Set - Container 1">5d8d26042f84a5109cb0d6ab2799b67d</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-24 00:43:42</sys_created_on><sys_id>589deac02f84a5109cb0d6ab2799b611</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_589deac02f84a5109cb0d6ab2799b611</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-24 00:43:42</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-662356748</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>297699dd2f9521109cb0d6ab2799b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1854195ecaf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>949d2244de84a510347253b81b052bd7</update_guid>
+<update_guid_history>949d2244de84a510347253b81b052bd7:-662356748</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_228d6ec02f84a5109cb0d6ab2799b66e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="DELETE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Print Update Set - Container 1</name><order>1</order><sp_page display_value="print_update_set">250d2ec02f84a5109cb0d6ab2799b6c1</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-24 00:43:34</sys_created_on><sys_id>228d6ec02f84a5109cb0d6ab2799b66e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Print Update Set - Container 1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_228d6ec02f84a5109cb0d6ab2799b66e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-24 00:43:34</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>819644853</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>2d7699dd2f9521109cb0d6ab2799b687</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1854195de7d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table/>
+<target_name>Print Update Set - Container 1</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>ef8d22445984a510b0110627fc1bd96b</update_guid>
+<update_guid_history>ef8d22445984a510b0110627fc1bd96b:819644853,268d6ec0fc84a510f632df0bc99faf6f:1247925313</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_5d0066882f04a5109cb0d6ab2799b6ab</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Print&lt;/name&gt;&lt;onclick&gt;printUpdateSet();&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function printUpdateSet(){
+
+	if( g_form.getValue('description') == "" ){
+		g_form.addErrorMessage("Please add Description to '" + g_form.getValue('name') + "'.");
+	}else{
+		var url = 'sp?id=print_update_set&amp;sysparm_update_set=' + g_form.getUniqueValue();
+		g_navigation.openPopup(url);
+		return false;
+	}
+
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-24 00:07:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5d0066882f04a5109cb0d6ab2799b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;Print&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_5d0066882f04a5109cb0d6ab2799b6ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-29 16:55:14&lt;/sys_updated_on&gt;&lt;table&gt;sys_update_set&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>619152123</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>617699dd2f9521109cb0d6ab2799b689</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1855ecf2f100000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table>sys_update_set</table>
+<target_name>Print</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>d8ebffb14fc02110d7b77e312150fc7f</update_guid>
+<update_guid_history>d8ebffb14fc02110d7b77e312150fc7f:619152123,c98bffb193c0211076f7853c566c497b:1824156409,e60af7b923802110877f766412becf32:-1860432822,94983f7d728021102ddf42574c0ad2c1:-280543442,24913bb1904021107cbfb5c0d8815b71:-1391372546,2f2ee2045f84a5102f6060b22955d5f3:-501055185,381ce6ccf944a510fb3a9dc29f835dd2:711244823,584b22cc8444a51067fb9e5607dde89c:1393156230,7e0a264c9a44a510f2609786f9ebd8a1:1924566343,96e92a4cff44a5109c2e00b5672dcdb2:927321092,6fb96e481744a510e8addc990e944ac1:-55908947,c879e6081244a51059127dce65779d81:1638426390,ba39ae482744a5108998188ca9ada006:-1160499289,4018aa480844a510e967c5a9b188e185:1289281669,59f72a486d44a510fe36b4bdc71f72e7:-899119388,065722c4ee44a510b28901c8db1887a4:1223555422,ab17e684a544a510a0caaefc2f98274a:2117192206,1796ea845144a510085d8ea9912b03a3:1350855546,a486eec05e44a5105150b085e3a9f6e0:2023945881,e2662644e044a510edd62665b3157759:385665059,08d5a2042544a510ab3cbdca9573fee4:-959064700,3c352e88d504a510130284ba35d4a489:-1471208641</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_page_250d2ec02f84a5109cb0d6ab2799b6c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>print_update_set</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description>Shows records contained in Update Set</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-24 00:41:59</sys_created_on><sys_id>250d2ec02f84a5109cb0d6ab2799b6c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>print_update_set</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_page_250d2ec02f84a5109cb0d6ab2799b6c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-24 00:41:59</sys_updated_on><title>Print Update Set</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=250d2ec02f84a5109cb0d6ab2799b6c1"/></record_update>]]></payload>
+<payload_hash>-446698514</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>657699dd2f9521109cb0d6ab2799b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18541945a840000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table/>
+<target_name>print_update_set</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>df2de6c01784a51087573b070befe8c3</update_guid>
+<update_guid_history>df2de6c01784a51087573b070befe8c3:-446698514</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_719d62442f84a5109cb0d6ab2799b679</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">d09d22442f84a5109cb0d6ab2799b6d8</sp_column><sp_widget display_value="Update Set Printer">505d2a042f84a5109cb0d6ab2799b688</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-24 00:43:48</sys_created_on><sys_id>719d62442f84a5109cb0d6ab2799b679</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_719d62442f84a5109cb0d6ab2799b679</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-24 00:43:48</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=719d62442f84a5109cb0d6ab2799b679"/></record_update>]]></payload>
+<payload_hash>-420171456</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>a17699dd2f9521109cb0d6ab2799b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>185419603da0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>759d62444c84a510a32e8fa3bb82527b</update_guid>
+<update_guid_history>759d62444c84a510a32e8fa3bb82527b:-420171456</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_bbc6d2582f4121109cb0d6ab2799b6f7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="bbc6d2582f4121109cb0d6ab2799b6f7" sys_domain="global" table="sys_metadata_link" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-12 10:45:33</sys_created_on><sys_id>3fc65ed82f4121109cb0d6ab2799b60c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_metadata_link" sys_domain="global" view="Default view">bbc6d2582f4121109cb0d6ab2799b6f7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-12 10:45:33</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>documentkey</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-12 10:45:33</sys_created_on><sys_id>77c65ed82f4121109cb0d6ab2799b60d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_metadata_link" sys_domain="global" view="Default view">bbc6d2582f4121109cb0d6ab2799b6f7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-12 10:45:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-12 10:45:33</sys_created_on><sys_id>7bc65ed82f4121109cb0d6ab2799b60d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_metadata_link" sys_domain="global" view="Default view">bbc6d2582f4121109cb0d6ab2799b6f7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-12 10:45:33</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_scope</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-12 10:45:33</sys_created_on><sys_id>7fc65ed82f4121109cb0d6ab2799b60d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_metadata_link" sys_domain="global" view="Default view">bbc6d2582f4121109cb0d6ab2799b6f7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-12 10:45:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>tablename</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-12 10:45:33</sys_created_on><sys_id>73c65ed82f4121109cb0d6ab2799b60e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_metadata_link" sys_domain="global" view="Default view">bbc6d2582f4121109cb0d6ab2799b6f7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-12 10:45:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-12 10:45:33</sys_created_on><sys_id>77c65ed82f4121109cb0d6ab2799b60e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_metadata_link" sys_domain="global" view="Default view">bbc6d2582f4121109cb0d6ab2799b6f7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-12 10:45:33</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>payload</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-12 10:45:33</sys_created_on><sys_id>7bc65ed82f4121109cb0d6ab2799b60e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_metadata_link" sys_domain="global" view="Default view">bbc6d2582f4121109cb0d6ab2799b6f7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-12 10:45:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>directory</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-12 10:45:33</sys_created_on><sys_id>7fc65ed82f4121109cb0d6ab2799b60e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_metadata_link" sys_domain="global" view="Default view">bbc6d2582f4121109cb0d6ab2799b6f7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-12 10:45:33</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sys_metadata_link</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-12 10:45:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bbc6d2582f4121109cb0d6ab2799b6f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_metadata_link</sys_name><sys_overrides/><sys_package display_value="Glide Metadata" source="com.glide.metadata">451ede66a5300110c0a0e1db2cdc9575</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_bbc6d2582f4121109cb0d6ab2799b6f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-12 10:45:33</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-35275721</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>a97699dd2f9521109cb0d6ab2799b689</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>186453ae6520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table>sys_metadata_link</table>
+<target_name>Metadata Snapshot</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>b7c65ed8c041211079c81d7273c6dd10</update_guid>
+<update_guid_history>b7c65ed8c041211079c81d7273c6dd10:-35275721,ffc65ed8f9412110bbbe6c8db8972708:1108669247</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_48f17b712f8021109cb0d6ab2799b6ef</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.UpdateSetPrinterClientHelper&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;UpdateSetPrinterClientHelper&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var UpdateSetPrinterClientHelper = Class.create();
+UpdateSetPrinterClientHelper.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+	checkDescription: function(){
+		var sys_ids = this.getParameter('sysparm_sys_ids');
+		var us = new GlideRecord('sys_update_set');
+		us.addEncodedQuery('descriptionISEMPTY^sys_idIN' + sys_ids);
+		us.query();
+		if( us.next() ){
+			gs.addErrorMessage("Please add Descripiton to '" + us.name.getValue() + "'.");
+			return false;
+		}
+		return true;
+
+	},
+	type: 'UpdateSetPrinterClientHelper'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-29 16:38:17&lt;/sys_created_on&gt;&lt;sys_id&gt;48f17b712f8021109cb0d6ab2799b6ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;UpdateSetPrinterClientHelper&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_48f17b712f8021109cb0d6ab2799b6ef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-29 16:38:17&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1861087851</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>ad7699dd2f9521109cb0d6ab2799b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1855ebfab880000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table/>
+<target_name>UpdateSetPrinterClientHelper</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>98083371a0802110aea8d5f506f871bb</update_guid>
+<update_guid_history>98083371a0802110aea8d5f506f871bb:-1861087851</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_a38aae8c2f44a5109cb0d6ab2799b67f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="DELETE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;g:ui_form&gt;
+		&lt;table&gt;
+			&lt;tr&gt;
+				&lt;td style="width:25%"&gt;
+					&lt;g:form_label&gt;
+						Name: 
+					&lt;/g:form_label&gt;
+				&lt;/td&gt;
+				&lt;td style="width:60%"&gt; 
+					&lt;input type="text" aria-label="Print your name" name="my_name" id="my_name" maxlength="25"/&gt;	
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/table&gt;
+	&lt;/g:ui_form&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;$print_update_set&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-24 00:31:54&lt;/sys_created_on&gt;&lt;sys_id&gt;a38aae8c2f44a5109cb0d6ab2799b67f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;$print_update_set&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_a38aae8c2f44a5109cb0d6ab2799b67f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-24 00:39:20&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1649204906</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>e57699dd2f9521109cb0d6ab2799b689</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18541934a6a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table/>
+<target_name>$print_update_set</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>12ec2ac01c84a5107bce5b5f0ecea58f</update_guid>
+<update_guid_history>12ec2ac01c84a5107bce5b5f0ecea58f:1649204906,a09c6e40e984a510125de3d0f9d3e161:1551316894,abdae6cc3c44a510b6c5b9986fee8fc9:-1838793571</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_505d2a042f84a5109cb0d6ab2799b688</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;Update Set Printer&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+
+	var usObjs = [];
+
+	//Determine if the user wants to consolidate Updates
+	if( $sp.getParameter('sysparm_consolidate') == "true" ){
+		data.consolidate = true;
+	}else{
+		data.consolidate = false;
+	}
+
+	var consolidatedUpdates = {
+		"updates": [],
+		"types": []
+	};
+
+	//Get sys_ids passed via URL Parameters
+	var sys_ids = $sp.getParameter('sysparm_update_set');
+
+	sys_ids = sys_ids.split(',');
+
+
+
+	for( var id in sys_ids ){
+		var updateSet = new GlideRecord('sys_update_set');
+		updateSet.get(sys_ids[id]);
+
+		//Update Set OBJ to store data to display within HTML
+		var update_set = {
+			"name": updateSet.name.getValue(),
+			"description": getDescription(updateSet.description.getValue()),
+			"updates": []
+		};
+
+		//Get Updates associated to Update Set
+		var updatesGR = new GlideRecord('sys_update_xml');
+		updatesGR.addEncodedQuery('update_set=' + sys_ids[id]);
+		updatesGR.orderBy('type');
+		updatesGR.query();
+
+		//Build OBJ containing properties for Name, Type, and Link
+		while( updatesGR.next() ){
+			if( updatesGR.action != 'DELETE' ){
+				var obj = {};
+				obj.type = updatesGR.type.getValue();
+				if( updatesGR.target_name ){
+					obj.name = updatesGR.target_name.getValue();
+				}else{
+					obj.name = updatesGR.name.getValue();
+				}
+				obj.link = getUpdateLink(updatesGR.payload, updatesGR.type.getValue());
+				update_set.updates.push(obj);
+				if( data.consolidate ){
+					consolidatedUpdates.updates.push(obj);
+				}
+			}
+		}
+
+
+		update_set.types = getTypes(update_set.updates);
+
+		usObjs.push(update_set);
+	}
+
+	//Set data.consolidatedUpdates if consolidate is needed
+	if( data.consolidate ){
+		consolidatedUpdates.types = getTypes(consolidatedUpdates.updates);
+
+		//Print list in Alphabetical order
+		consolidatedUpdates.types.sort(function(a, b) {
+			var textA = a.toUpperCase();
+			var textB = b.toUpperCase();
+			return (textA &lt; textB) ? -1 : (textA &gt; textB) ? 1 : 0;
+		});
+
+		data.consolidatedUpdates = consolidatedUpdates;
+	}
+
+	data.update_sets = usObjs;
+
+})();
+
+/**
+ * Build Description as array splitting at new line if Update Set contains description
+ *
+ * @param {string} 'description' - Description of Update Set
+ * @return {array} 'newDesc'
+ */
+function getDescription(description){
+	var newDesc = "";
+	if( description ){
+		newDesc = description.split("\n");
+	}
+	return newDesc;
+}
+
+
+/**
+ * Build link to take user to update
+ *
+ * @param {xml} 'payload' - XML from sys_update_xml record
+ * @return {string} 'link' - URL link to record
+ */
+function getUpdateLink(payload){
+	try{
+		var update = gs.xmlToJSON(payload);
+		var link = gs.getProperty('glide.servlet.uri');
+		if( update.record_update.table &amp;&amp; update.record_update[update.record_update.table].sys_id ){
+			link += update.record_update.table + "?sys_id=" + update.record_update[update.record_update.table].sys_id;
+			return link;
+		}else{
+			return "";
+		}
+
+	}catch(e){
+		gs.error("Error building link for Update Set Printer:\n\n" + e);
+		return "";
+	}
+}
+
+/**
+ * Extract list of Types from Updates
+ *
+ * @param {array} 'updates' - List of updates that contains name, type, and link
+ * @return {array} 'types'
+ */
+function getTypes(updates){
+	var types = [];
+	for( var type in cleanObjs(updates) ){
+		types.push(type);
+	}
+	return types;
+}
+
+/**
+ * Combines updates under corresponding property. The property name is the 'type'
+ * 
+ * Ex.  { 
+ *	 		 "Business Rule": [{"name": "Business Rule Name1", "link" "https://..."}, {"name": "Business Rule Name2", "link" "https://..."}],
+ *	 		 "Script Include": [{"name": "Script Include Name1", "link" "https://..."}, {"name": "Script Include Name2", "link" "https://..."}]
+ *		}
+ *
+ * @param {array} 'objs' - Array of OBJs contianing properties 'type' and 'name' 
+ * @return {JSON} 'newObj'
+ */
+function cleanObjs(objs){
+	var newObj = {};
+
+	for( var i in objs ){
+		if( !newObj[objs[i].type] ){
+			newObj[objs[i].type] = [];
+		}
+		newObj[objs[i].type].push({
+			"name": objs[i].name,
+			"link": objs[i].link
+		});
+
+	}
+
+	return newObj;
+}]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-24 00:42:50&lt;/sys_created_on&gt;&lt;sys_id&gt;505d2a042f84a5109cb0d6ab2799b688&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Set Printer&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_505d2a042f84a5109cb0d6ab2799b688&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-27 18:53:30&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div ng-if="!data.consolidate" ng-repeat="update_set in data.update_sets"&gt;
+  &lt;h2&gt;&lt;b&gt;{{ update_set.name }}&lt;/b&gt;&lt;/h2&gt;
+  &lt;div ng-if="update_set.description" ng-repeat="description in update_set.description"&gt;
+    &lt;h5&gt;&lt;i&gt;{{ description }}&lt;br&gt;&lt;/i&gt;&lt;/h5&gt;
+  &lt;/div&gt;
+  &lt;div ng-repeat="type in update_set.types"&gt;
+    &lt;h4&gt;{{ type }}&lt;/h4&gt;
+    &lt;ul style="list-style-type:disc;"&gt;
+      &lt;li ng-repeat="update in update_set.updates" ng-if="update.type == type &amp;&amp; update.link"&gt;&lt;a ng-href="{{ update.link }}" target="_blank"&gt;{{ update.name }}&lt;/a&gt;&lt;/li&gt;
+      &lt;li ng-repeat="update in update_set.updates" ng-if="update.type == type &amp;&amp; !update.link"&gt;{{ update.name }}&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div ng-if="data.consolidate"&gt;
+  &lt;div ng-repeat="type in data.consolidatedUpdates.types"&gt;
+    &lt;h4&gt;{{ type }}&lt;/h4&gt;
+    &lt;ul style="list-style-type:disc;"&gt;
+      &lt;li ng-repeat="update in data.consolidatedUpdates.updates" ng-if="update.type == type &amp;&amp; update.link"&gt;&lt;a ng-href="{{ update.link }}" target="_blank"&gt;{{ update.name }}&lt;/a&gt;&lt;/li&gt;
+      &lt;li ng-repeat="update in data.consolidatedUpdates.updates" ng-if="update.type == type &amp;&amp; !update.link"&gt;{{ update.name }}&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1739279521</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>e97699dd2f9521109cb0d6ab2799b688</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>186943904d10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table/>
+<target_name>Update Set Printer</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>f556d55d629521107f6a075c0487eaa3</update_guid>
+<update_guid_history>f556d55d629521107f6a075c0487eaa3:1739279521,4d46559d509521100308f73a07fdd2c0:-1221068505,cb2651d95595211056d0ea94af18a9a0:1739279521,f5a51d1d3e952110276afbbd17111282:1935677911,1955d55ddd952110d693d334ccfc2f99:336741494,6cf4dd9505952110c40ad56f191aa9e9:1270765565,2ca41d5969952110f01cf59d1495988d:1149476603,9fa315d143952110ec84a42bf0e51bd1:-2107668722,d2731d594095211072e73739a8dbee89:-1890659097,396311151e55211081bf47d128b7c806:158471826,05235d91129521108eb051280a4df8eb:-1634156845,aad215d1cd9521105ec4fe08080a05c9:1617455772,e8a2551962952110658331cae3959010:-976264298,76e1dd959b9521109243365838f83a41:4598965,a2e84d55e5552110531e499de2a32a9e:-837654539,32af6899e7512110b84ddbe3aea07ac3:-750645150,898f2499e6512110ebfbf9dc925a7cb7:107654088,433dac51c0912110f44cc9d7d0774c8a:-850147216,300a2c992151211053be33294804406e:-1850375537,e2c9249949512110b4b930c5a4d6b8a1:977282021,f6a235fe77812110601271828332432f:-596611385,e512b9be828121107ac79fa377789a34:1708477087,86c179fa128121105d5b9a6fe61c0995:874498878,d67179fa39812110c8dc992874b5bf65:1228700518,de7079fab2812110bf1648180b5d5460:-1122313589,ecefe5ba04812110574ae9ec44576035:-284866112,c8cfedf65d8121107024fc4e161badfa:-1667824240,f09fedf689812110be99c86783be34f6:946159181,ab0fe17a394121109d215d159014932c:-1853527005,a89eadf6b9812110f90d1fe91df16765:-1315193723,3bbce536e6812110f971df81dcabd3be:242359897,f69c617a594121108d4e88f5b1c40291:-1567044965,2afa21be7b412110fa605fd59f34f339:1389742547,b959617a904121101445f44fcb9a5f3b:627019793,81d6a17a164121105b873e5b95f77a32:625571646,1594ad3669412110862bd23e3b07262a:-1346090590,7e442d324f41211024a12f744e7edb50:1734856070,50b3a9b228412110d2eaa1ea30b005d0:438047060,3e63e5b2ab412110f1a59c3d5d3ba7c2:230120482,6853e5b2aa412110465e895c3ae7b0af:333778377,e80369bee001211013bfe4e76de873f6:-1588036844,c7c2a9bea701211045b625fbafac7489:-571959890,006225be4f012110335cab12ba84e4ea:-235966684,28a169bef5012110d0607c397813cd37:-1790541706,7a216d7eee01211063db5d41049ee9f2:-157689916,f3d0e53efe01211076b31d97dfbdd405:1241777013,686e12900c812110187f0cee56bf886e:-1667640027,290ede54ea8121107b935d950f62b055:-1281179203,b4cd96d463812110a5e111c499fbab39:530850815,f22d1294e2812110b06b03b4cb865031:-898845203,8fbc5e14ff8121107e0cd403980aee1a:-1119725094,568c9ed85d412110dc761007534122eb:-791751574,680c5e1434812110afb58d333b669e40:1300934243,7ca616d83841211098b16ca4b829888f:634924189,ca86d29870412110249f1a2a61b8d937:-1676334498,5e95d2580441211027243f0effab6fee:-2032476009,81655ad4c04121102980714a160b2a51:1268661294,80a496d4d2412110e6511ab0a2415c02:-220215092,7676283e917021101fca250de90cd4be:-533376340,bc65d8d2dcb02110c021b9bb36b5033e:1119713786,1e5b4c92047021107456dcd86c4db028:1703991460,1ebac892e0702110282ec5ce9dd4c263:2005014846,d67ac492a67021106e8342f413abf933:531084528,538b0c8ee8042110a98f6f5492e1bb30:-2032895828,3c1bc08abc0421104a3bdb64c8bc1d17:-1284779123,23fa480ef3042110cb5ce2c50a72379e:-338629231,d31ac40ed4042110b12a9d54161bb0e4:785351123,b8e9800a480421102bfe2194934d8dc8:-787158007,0e498c8a61042110d474242e390fb7f6:1811118280,08d888c6930421106695e3ef6814055f:1348870970,4b188c0234042110117ce514df99407a:2042228850,3e774c4676042110c9e6ea98f60ab038:1500819206,a986c0c65804211043517026fc4b0b74:1893042613,76554c0668042110740851afa33f3715:-1573317198,caf440c232042110c684d560e6d83387:539759007,5d140c8ec3c02110e7c6c1a28711e20f:1394622958,fa330842d9042110aa7bef54b78af58a:-1144878292,f9e2804614c021102890251f861ceecc:-1581344711,36a2c402830421100e615230f19fbb66:-226243303,fdb1cc8221c021100d81ee65736fe1ac:-684450996,141eb375bcc0211055798d1306a6f0f9:861273557,1aed3775bec02110670d2e5ee2a58a2e:-1036900014,aeecfb7599c02110ed5b80b435ab491d:350938080,80ac73f12ec02110987b6a0d7eb960a3:-387259769,3b0937bd3a80211089d1cfeb358bb6ef:-328326465,b725e739fe0021100096ed3d3a7218fc:-1221847901,2807b24461c4a510615883c6df198b13:1338557573,b1067244f9c4a510769df4637e602d77:-86622704,d7e576c0c7c4a510fdc667211db1f7b0:-933053416,2f85b6c03ac4a510e0c1b3064d601a59:-1512556492,46657ac8e784a5104793f05c24a209a0:-704595677,37153248ee84a510d501ed2314698e4a:202547019,df94b68061c4a510b4f5da28f43745a9:583675109,6374b2803dc4a5100cea9cd79b77ad6f:489972372,be647a087b84a510f69554591661da9b:1023755819,39433a887784a5107541477c927ab945:-1599151291,10607e088684a51010642da1df0febae:1188856272,e3107e084c84a5107210aa17b8ffee3e:-474565097,458f6a083984a510a756b5271b51e014:-1222464600,d75f26840084a510513e7a79e909b49b:-1687104564,917da604e384a51083baeea4a27100da:-2043767594,bb5da6040a84a510b63d004e8a58845d:951022612</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_5d8d26042f84a5109cb0d6ab2799b67d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Print Update Set - Container 1</name><order>1</order><sp_page display_value="print_update_set">250d2ec02f84a5109cb0d6ab2799b6c1</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-24 00:43:29</sys_created_on><sys_id>5d8d26042f84a5109cb0d6ab2799b67d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Print Update Set - Container 1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_5d8d26042f84a5109cb0d6ab2799b67d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-24 00:43:39</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>1247925313</payload_hash>
+<remote_update_set display_value="Update Set Printer v1.2">6576559d2f9521109cb0d6ab2799b6c8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-02-27 18:54:01</sys_created_on>
+<sys_id>ed7699dd2f9521109cb0d6ab2799b687</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1854195df7f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-02-27 18:54:01</sys_updated_on>
+<table/>
+<target_name>Print Update Set - Container 1</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>e78d22440984a51026d39d4219d5176e</update_guid>
+<update_guid_history>e78d22440984a51026d39d4219d5176e:1247925313,ae8d6ec00884a5100373aaf65ff19b71:1972488064,9d8d2604b284a510129f6123157b837f:1247925313</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
