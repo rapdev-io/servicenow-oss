@@ -24,7 +24,7 @@ Simplify writing documentation with the ***Update Set Printer*** functionality.
 
   * In the list view, select the Update Sets you with to print
   
-  * From the ***Actions on selected rows...*** drop down, select the ***Print*** option and this will bring up a prompt box
+  * From the ***'Actions on selected rows...'*** drop down, select the ***Print*** option and this will bring up a prompt box
 
   * Select ***OK*** if you wish to have updates consolidated by Type
 
