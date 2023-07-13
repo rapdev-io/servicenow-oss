@@ -2,13 +2,13 @@
 
 Simplify writing documentation with the ***Update Set Printer*** functionality.
 
-##How to use:
+## How to use:
 
  * Download the latest version of the ***Update Set Printer.xml*** 
 
  * Import XML into your ServiceNow Dev Instance
 
-###To print single update sets:
+### To print single update sets:
 
   * Navigate to the ***Update Sets (sys_update_set)*** table
   
@@ -18,7 +18,7 @@ Simplify writing documentation with the ***Update Set Printer*** functionality.
   
   * Copy the listed items and paste into your documentation
 
-###To print multiple update sets:
+### To print multiple update sets:
 
   * Navigate to the ***Update Sets (sys_update_set)*** table
 
