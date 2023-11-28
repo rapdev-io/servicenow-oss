@@ -1,33 +1,18 @@
-# Update Set Printer
+# GCPEnhanced
 
-Simplify writing documentation with the ***Update Set Printer*** functionality.
+A custom app that extends the OOTB capabilities of Google Cloud discovery. 
 
 ## How to use:
 
- * Download the latest version of the ***Update Set Printer.xml*** 
+ * Download the latest version of the ***Update Set GCPEnhanced.xml*** 
 
- * Import XML into your ServiceNow Dev Instance
+ * Import XML into your ServiceNow Instance
 
-### To print single update sets:
+### How to view discovered resources:
 
-  * Navigate to the ***Update Sets (sys_update_set)*** table
+  * Run a cloud discovery schedule that targets your organization's Google Cloud infrastructure
   
-  * Click into the Update Set you wish to print
+  * Discovered resources will be located in Cloud Resources (cmdb_ci_cmp_resource)
   
-  * Click the ***Print*** UI Action on the form, this will take you to a Portal page with the contents listed organized by type
-  
-  * Copy the listed items and paste into your documentation
-
-### To print multiple update sets:
-
-  * Navigate to the ***Update Sets (sys_update_set)*** table
-
-  * In the list view, select the Update Sets you with to print
-  
-  * From the ***'Actions on selected rows...'*** drop down, select the ***Print*** option and this will bring up a prompt box
-
-  * Select ***OK*** if you wish to have updates consolidated by Type
-
-  * Select ***Cancel*** if you wish to have updates consolidated by Update Sets
-  
-  * Copy the listed items and paste into your documentation
+  * Cloud Resources Tags will be located in Key Values (cmdb_key_value)
+ 
