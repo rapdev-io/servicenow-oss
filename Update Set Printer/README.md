@@ -35,6 +35,6 @@ Simplify writing documentation with the ***Update Set Printer*** functionality.
 
 
 ### Versions
-  * **v1.2** Adds 'Print' button to display contents of Update Sets | Adds ability to select multiple Update Sets in list view | Adds functionality to consolidate Updates from multiple Update Sets into their respective types
-  * **v1.3** Fixed bug to print name of Flow / Subflows
-  * **v2.0** Added Functionality to toggle displaying Deleted Records | Added Option to dynamically display certain Types of Updates | Added Option to toggle showing Updates as Consolidated or Separated
+  * **v1.2** - Adds 'Print' button to display contents of Update Sets | Adds ability to select multiple Update Sets in list view | Adds functionality to consolidate Updates from multiple Update Sets into their respective types
+  * **v1.3** - Fixed bug to print name of Flow / Subflows
+  * **v2.0** - Added Functionality to toggle displaying Deleted Records | Added Option to dynamically display certain Types of Updates | Added Option to toggle showing Updates as Consolidated or Separated
