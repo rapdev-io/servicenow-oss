@@ -31,3 +31,10 @@ Simplify writing documentation with the ***Update Set Printer*** functionality.
   * Select ***Cancel*** if you wish to have updates consolidated by Update Sets
   
   * Copy the listed items and paste into your documentation
+
+
+
+### Versions
+  * **v1.2** Adds 'Print' button to display contents of Update Sets, Adds ability to select multiple Update Sets in list view, Adds functionality to consolidate Updates from multiple Update Sets into their respective types
+  * **v1.3** Fixed bug to print name of Flow / Subflows
+  * **v2.0** Added Functionality to toggle displaying Deleted Records, Option to dynamically display certain Types of Updates, Option to toggle showing Updates as Consolidated or Separated
