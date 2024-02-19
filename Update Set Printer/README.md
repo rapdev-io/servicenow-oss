@@ -41,9 +41,9 @@ Simplify writing documentation with the ***Update Set Printer*** functionality.
      2. x_radi_digi_ai_prompt_04c49e071b3b3510d4e599f91d4bcb32
      3. x_radi_digi_actions_df1316471b3b3510d4e599f91d4bcbbb
      4. x_radi_digi_ai_prompt_70dd34541b07e150d4e599f91d4bcbe8
-     5. sys_scope_privilege_645d00e11bf37510d1dca685ec4bcbbc - Could not find a record in sys_scope for column sys_scope referenced in this update	
-     6. sys_scope_privilege_645d00e11bf37510d1dca685ec4bcbbc - Could not find a record in sys_scope for column source_scope referenced in this update	
-     7. sys_scope_privilege_645d00e11bf37510d1dca685ec4bcbbc - Cannot commit Update Set 'Update Set Printer v2.0' because: Update scope id '43072c731ba22110d1dca685ec4bcbaa' is different than update set scope id 'global'. Resolve the problem before committing.	
+     5. sys_scope_privilege_645d00e11bf37510d1dca685ec4bcbbc - *Could not find a record in sys_scope for column sys_scope referenced in this update*
+     6. sys_scope_privilege_645d00e11bf37510d1dca685ec4bcbbc - *Could not find a record in sys_scope for column source_scope referenced in this update*	
+     7. sys_scope_privilege_645d00e11bf37510d1dca685ec4bcbbc - *Cannot commit Update Set 'Update Set Printer v2.0' because: Update scope id '43072c731ba22110d1dca685ec4bcbaa' is different than update set scope id 'global'. Resolve the problem before committing.*
 
 
 ### Versions
