@@ -1,0 +1,19 @@
+template:
+  name: ServiceNow DevOps Register Artifact
+  identifier: ServiceNow_DevOps_Register_Artifact
+  versionLabel: v4.1.0
+  type: Step
+  tags: {}
+  spec:
+    type: Run
+    spec:
+      connectorRef: account.harnessImage
+      image: curlimages/curl:latest
+      shell: Sh
+      command: "curl --location --request POST \"$instance_url/api/sn_devops/devops/artifact/registration?orchestrationToolId=$tool_id\" \\\n-sw \"\\nStatus: %{response_code}\\n%{stdout}\" \\\n--header \"Authorization: sn_devops.DevOpsToken $tool_id:$devops_integration_token\" \\\n--header \"Content-Type: application/json\" \\\n--data-raw \"{\n\t\\\"artifacts\\\": $artifacts,\n  \\\"pipelineName\\\": \\\"<+org.identifier>/<+project.identifier>/<+pipeline.identifier>\\\",\n  \\\"stageName\\\": \\\"<+stage.identifier>\\\",\n  \\\"taskExecutionNumber\\\": \\\"<+pipeline.sequenceId>\\\"\n}\""
+      envVariables:
+        instance_url: <+input>
+        tool_id: <+input>
+        devops_integration_token: <+input>
+        artifacts: <+input>
+    description: Register artifact details in ServiceNow
