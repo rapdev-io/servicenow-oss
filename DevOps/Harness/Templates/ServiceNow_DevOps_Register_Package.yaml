@@ -1,0 +1,34 @@
+template:
+  name: ServiceNow DevOps Register Package
+  type: Step
+  spec:
+    type: ShellScript
+    spec:
+      shell: Bash
+      executionTarget: {}
+      source:
+        type: Inline
+        spec:
+          script: "curl --location --request POST \"$instance_url/api/sn_devops/devops/package/registration?orchestrationToolId=$tool_id\" \\\n-sw \"\\nStatus: %{response_code}\\n\" \\\n--header \"Authorization: sn_devops.DevOpsToken $tool_id:$devops_integration_token\" \\\n--header \"Content-Type: application/json\" \\\n--data-raw \"{\n  \\\"name\\\": \\\"$package_name\\\",\n\t\\\"artifacts\\\": $artifacts,\n  \\\"pipelineName\\\": \\\"<+org.identifier>/<+project.identifier>/<+pipeline.identifier>\\\",\n  \\\"stageName\\\": \\\"<+stage.identifier>\\\",\n  \\\"taskExecutionNumber\\\": \\\"<+pipeline.sequenceId>\\\"\n}\""
+      environmentVariables:
+        - name: instance_url
+          type: String
+          value: <+input>
+        - name: tool_id
+          type: String
+          value: <+input>
+        - name: devops_integration_token
+          type: String
+          value: <+input>
+        - name: artifacts
+          type: String
+          value: <+input>
+        - name: package_name
+          type: String
+          value: <+input>
+      outputVariables: []
+      delegateSelectors: []
+      includeInfraSelectors: false
+    timeout: 10m
+  identifier: ServiceNow_DevOps_Register_Package
+  versionLabel: v4.1.0
