@@ -1,0 +1,33 @@
+template:
+  name: ServiceNow DevOps Change
+  identifier: ServiceNow_DevOps_Change
+  versionLabel: v4.1.0
+  type: Stage
+  tags: {}
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              name: ServiceNow DevOps Change Automation
+              identifier: ServiceNow_DevOps_Change_Automation
+              type: HarnessApproval
+              timeout: <+input>
+              spec:
+                approvalMessage: ServiceNow DevOps Change Automation
+                includePipelineExecutionHistory: true
+                approvers:
+                  minimumCount: 1
+                  disallowPipelineExecutor: false
+                  userGroups: <+input>
+                isAutoRejectEnabled: false
+                approverInputs:
+                  - name: sn_devops_change_request_details
+                    defaultValue: <+stage.variables.sn_devops_change_request_details>
+    variables:
+      - name: sn_devops_change_request_details
+        type: String
+        description: The change request details to be used while creating change in ServiceNow
+        required: false
+        value: <+input>
